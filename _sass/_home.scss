@@ -1,13 +1,15 @@
 .home{
-	text-align: center;
-    background: url("../images/dogs_cropped.jpg") no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: #fff;
-    float: left;
-    width: 100%;
-    display: block;
-    min-height: 300px;
+	float: left;
+	width: 100%;
+	.hero-banner{
+		text-align: center;
+	    background: url("../images/dogs_cropped.jpg") no-repeat;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    color: #fff;
+	    display: block;
+	    min-height: 300px;
+	}
 }
