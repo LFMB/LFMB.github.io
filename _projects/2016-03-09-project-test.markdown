@@ -2,7 +2,8 @@
 layout: project
 title:  "Test Project"
 date:   2016-03-09 20:07:33 -0500
-categories: Making Jekyll Great Again JK
+categories: test
+icon: fa-random
 ---
 
 Let's see if this project category will work

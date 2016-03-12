@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+order: 1
 ---
 
 <div class="home">
@@ -18,11 +19,11 @@ title: Home
     <ul class="post-list">
       {% for project in site.projects %}
         <li>
-          <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
-
-          <h2>
-            <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-          </h2>
+          <i class="fa {{ project.icon }} "></i>
+          <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">
+            <h2>{{ project.title }}</h2>
+            {{ post.excerpt }}
+          </a>
         </li>
       {% endfor %}
     </ul>
