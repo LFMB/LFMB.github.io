@@ -2,8 +2,8 @@
   <nav class="navbar navbar-light">
     <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
     <ul class="nav navbar-nav pull-xs-right">
-      {{ site.pages | sort: 'order' }}
       {% for my_page in site.pages %}
+        {{ site.pages | sort: 'order' }}
         {% if my_page.title %}
 
         <li class="nav-item">
