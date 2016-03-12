@@ -22,7 +22,7 @@ order: 1
           <i class="fa {{ project.icon }} "></i>
           <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">
             <h2>{{ project.title }}</h2>
-            {{ post.excerpt }}
+            {{ project.excerpt }}
           </a>
         </li>
       {% endfor %}
