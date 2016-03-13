@@ -3,6 +3,7 @@ layout: project
 title:  "Project Test"
 icon: fa-random
 excerpt: new excerpt buwhaha
+permalink: project-test
 ---
 
 Let's see if this project category will work

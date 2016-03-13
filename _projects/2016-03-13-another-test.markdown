@@ -1,13 +1,12 @@
 ---
 layout: project
-title:  "Another test"
+title:  "Another Test"
 icon: fa-phone
 excerpt: another project
-permalink: another-test
+permalink: woot
 ---
 
 Whoooo hoooo 
-
 
 Jekyll also offers powerful support for code snippets:
 
