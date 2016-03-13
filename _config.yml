@@ -19,7 +19,10 @@ github_username:  LFMB
 # Build settings
 markdown: kramdown
 
-collections:
-- projects
-
 permalink: "/:title"
+
+collections:
+ projects:
+  output: true
+  permalink: /:title
+
