@@ -1,11 +1,8 @@
 ---
 layout: project
 title:  "Test Project"
-date:   2016-03-09 20:07:33 -0500
 icon: fa-random
 excerpt: new excerpt buwhaha
-slug: test-project
-permalink: slug
 ---
 
 Let's see if this project category will work
