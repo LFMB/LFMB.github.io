@@ -9,7 +9,7 @@
 title: Downeast Markets
 email: lucasfblom@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Downeast Markets | Dream. Test. Develop. Repeat.
+  Analyze. Prototype. Test. Repeat.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "LFMB.github.io" # the base hostname & protocol for your site
 twitter_username: LFMB
