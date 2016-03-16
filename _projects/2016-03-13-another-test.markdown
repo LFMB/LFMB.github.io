@@ -2,7 +2,9 @@
 layout: project
 title:  "Another Test"
 icon: fa-phone
-excerpt: another project
+tags: 
+- another
+- project
 permalink: woot
 ---
 

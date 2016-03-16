@@ -14,21 +14,29 @@ permalink: /
     </div>
   </section>
   <section class="container-fluid recent-projects">
-    <h2>Recent Projects</h2>
-    <ul class="project-list col-xs-12 list-unstyled">
-      {% for project in site.projects %}
-        <li class="col-sm-4 col-xs-6">
-          <i class="fa {{ project.icon }} "></i>
-          <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">
-            <h2>{{ project.title }}</h2>
-            {{ project.excerpt }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+    <h2 class="col-xs-12">Recent Projects</h2>
+    <div class="card-deck-wrapper">
+      <div class="card-deck">
+        {% for project in site.projects %}
+          <div class="card card-block text-xs-center">
+            <i class="card-img-top fa fa-3x {{ project.icon }} "></i>
+            <div class="card-block">
+              <h4 class="card-title">{{ project.title }}</h4>
+              <p class="card-text">
+                Technologies Used: 
+                {% for tag in project.tags %}
+                  <span class="project-tag">{{ tag }}</span>
+                {% endfor %}
+              </p>
+              <a class="card-link" href="{{ project.url | prepend: site.baseurl }}">Nerd On</a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
   <section>
   <section class="container-fluid recent-articles">
-    <h2>Recent Posts</h2>
+    <h2 class="col-xs-12">Recent Posts</h2>
     <ul class="post-list col-xs-12 list-unstyled">
       {% for post in site.posts %}
         <li class="col-sm-4 col-xs-6">

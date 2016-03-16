@@ -2,7 +2,10 @@
 layout: project
 title:  "Project Test"
 icon: fa-random
-excerpt: new excerpt buwhaha
+tags:
+- new
+- excerpt
+- buwhaha
 permalink: project-test
 ---
 
