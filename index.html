@@ -15,7 +15,7 @@ permalink: /
   </section>
   <section class="container-fluid recent-projects">
     <h2>Recent Projects</h2>
-    <ul class="post-list">
+    <ul class="project-list col-xs-12 list-unstyled">
       {% for project in site.projects %}
         <li class="col-sm-4 col-xs-6">
           <i class="fa {{ project.icon }} "></i>
@@ -29,14 +29,13 @@ permalink: /
   <section>
   <section class="container-fluid recent-articles">
     <h2>Recent Posts</h2>
-    <ul class="post-list">
+    <ul class="post-list col-xs-12 list-unstyled">
       {% for post in site.posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+        <li class="col-sm-4 col-xs-6">
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
+          <p>{{ post.excerpt }}</p>
         </li>
       {% endfor %}
     </ul>
