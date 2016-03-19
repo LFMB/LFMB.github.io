@@ -19,6 +19,14 @@
     }
 }
 
+.social-icon-link{
+    color: #000;
+    font-weight: bold;
+    &:hover{
+        color: #fff;
+    }
+}
+
 .site-title {
     font-size: 26px;
     font-weight: 300;
