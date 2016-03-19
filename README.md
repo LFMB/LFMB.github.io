@@ -16,3 +16,6 @@ Jekyll is a Ruby based static site generator that allows blogging to be done lik
 It uses intuitive templating for anyone who knows how to use JavaScript Objects and is familiar is Handlebars, Markdown, HTML and SASS. 
 Essentially, when I looked at the code layout of a Jekyll generated site I started smiling - it was exactly how I'd structure a CMS in my dreams.
 
+#To-Dos:
+- look up how to declare variables in Sass (want to create mixin for font styling);
+- factor out social media icons code in footer include

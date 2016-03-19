@@ -13,6 +13,9 @@
     .nav-link-color{
         color: #000;
         font-weight: bold;
+        &:hover{
+            color: #fff;
+        }
     }
 }
 
@@ -109,13 +112,17 @@
     float: left;
     display: block;
     width: 100%;
-    background: #0ff;
+    background: #04e504; // #0ff;
     color: #000;
 }
 
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+}
+
+.footer-column-title{
+    color: #fff;
 }
 
 .contact-list,
@@ -136,6 +143,8 @@
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+    color: #fff;
+    text-align: center;
 }
 
 .footer-col-1 {
