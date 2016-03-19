@@ -13,9 +13,11 @@ To get to this comfort point I've worked with around 20 - 30 different brokers (
 A good portion of my professional work has centered around CMSs. I've developed in Drupal, WordPress and Square Space and surprise - they are all a nightmare to develop in. 
 I was on the verge of condeming all CMSs as doomed to be terrible to develop in and then I bumped into github's Jekyll. For the people who are not aware, github offers free web hosting for your user/ org accounts and projects.
 Jekyll is a Ruby based static site generator that allows blogging to be done like a true nerd would (I've seen it marketed "As a hacker would blog").  
-It uses intuitive templating for anyone who knows how to use JavaScript Objects and is familiar is Handlebars, Markdown, HTML and SASS. 
+It uses intuitive templating for anyone who knows how to use JavaScript Objects and is familiar with Handlebars, Markdown, HTML and SASS. 
 Essentially, when I looked at the code layout of a Jekyll generated site I started smiling - it was exactly how I'd structure a CMS in my dreams.
 
 #To-Dos:
 - look up how to declare variables in Sass (want to create mixin for font styling);
 - factor out social media icons code in footer include
+- add styling to "active" page in top nav
+- have footer flush with bottom of page if body of the post isn't longer than the client's browser window
