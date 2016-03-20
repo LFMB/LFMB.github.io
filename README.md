@@ -20,4 +20,4 @@ Essentially, when I looked at the code layout of a Jekyll generated site I start
 - look up how to declare variables in Sass (want to create mixin for font styling);
 - factor out social media icons code in footer include
 - add styling to "active" page in top nav
-- have footer flush with bottom of page if body of the post isn't longer than the client's browser window
+- have footer flush with bottom of page if body of the post isn't longer than the client's browser window // need to do this for on resize
