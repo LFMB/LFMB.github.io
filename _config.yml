@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "downeastmarkets.com" # the base hostname & protocol for your site
 twitter_username: DowneastMarkets
 github_username:  LFMB
-# facebook_username:	DowneastMarkets
+facebook_username:	DowneastMarkets
 
 # Build settings
 markdown: kramdown
