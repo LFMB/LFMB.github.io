@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Project Test"
+title:  "Longclaw - New Drupal Theme"
 icon: fa-random
 tags:
 - new
@@ -8,6 +8,8 @@ tags:
 - buwhaha
 permalink: project-test
 ---
+
+Longclaw - designed to crush whatever challenges that may come your way be them White Walkers or something more mundane like plugging holes in your sales funnel  
 
 Let's see if this project category will work
 
