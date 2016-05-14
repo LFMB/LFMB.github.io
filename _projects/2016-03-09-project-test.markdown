@@ -3,29 +3,22 @@ layout: project
 title:  "Longclaw - New Drupal Theme"
 icon: fa-random
 tags:
-- new
-- excerpt
-- buwhaha
-permalink: project-test
+- Drupal 7 theming
+- Color Module 
+- LESS
+- PHP
+- jQuery/JavaScript
+- CMS development
+- Site design
+- using Vim
+
+permalink: longclaw-start
 ---
+---
+## Background
+For work I've created numerous Drupal themes but they were more or less just incremental updates to what my predecessor developed before leaving (Yuan, if you're reading this, hope all is well!). We have finally reached a point where it's time to create a new theme to offer our clients.
+One of my biggest pet peeves about our current base theme is that your site there's no clear definition or explanation on how the colors you've picked out will render through out the site. This annoys me because I like to limit my mental storage to remembering the important things in life and more importantly creates a barrier of entry for who ever wants to make basic sitewide changes be it one of our designers or a client. I don't know about you but I hate answering questions that I view banal. If I already understand something I want to move on to something I don't fully comprehend. Almost all our clients have my skype handle and expect some sort of response within a couple minutes of pinging me if they see that I'm online and I view it a good day at work if I don't hear from any of our cleints. 
 
-Longclaw - designed to crush whatever challenges that may come your way be them White Walkers or something more mundane like plugging holes in your sales funnel  
-
-Let's see if this project category will work
+## Current code
 
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
