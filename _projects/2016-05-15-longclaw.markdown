@@ -18,12 +18,12 @@ permalink: longclaw
 
 A client asked us to create a new drupal theme and using the opprountity to make sitewide color changes more intuitive. 
 
-## Current code
+## Color.inc code for our base theme
 
 {% highlight php %}
 <? php
 // Put the logo path into JavaScript for the live preview
-drupal_add_js(array('color' => array('logo' => theme_get_setting9'logo', 'longclaw'))), 'setting');
+drupal_add_js(array('color' => array('logo' => theme_get_setting'logo', 'longclaw'))), 'setting');
 
 $info = array(
 	// Available colors and color labels used in theme
@@ -38,9 +38,51 @@ $info = array(
 	),
 	// Pre-defined color schemes
 	'schemes' => array(
-		
+		'default' => array(
+			'title' => t('Blue (default)'),
+			'colors' => array(
+				'theme' => '#273444',
+				'lighttheme' => '#4c6685',
+			i	'lightertheme' => '#8199b6',
+				'darktheme' => '#1e2834',
+				'alttheme' => '#bababa',
+				'lightalttheme' => '#ededed',
+				'highlight' => '#2e9949',
+			),
+		),	
+	),
+	// CSS files (excluding @import) to rewrite with new color scheme
+	'css' => array(
+		'css/styles.css',
+	),
+	// Files to copy
+	'copy' => array(),
+	// Gradient definitions 
+	array( 
+	// (x, y, width, height)
+	'dimension' => array(0, 0, 0, 0),
+	// Direction of gradient ('vertical' or 'horizontal')
+	'direction' => 'vertical',
+	// keys of colors to use for the gradient
+	'colors' => array('top', 'bottom'),
 	),
 ),
+
+// Color areas to fill (x, y, width, height)
+'fill' => array(),
+
+// Reference color used for blending. Matches the base.png's colors
+'blend_target' => '#ffffff',
+
+// Preview files
+// 'preview_css' => 'color/preview.css',
+
+
+// 'preview_js' => 'color/preview.js',
+// 'preview_html' => 'color/preview.html',
+// Base file for image generation
+'base_image => 'color/base.png',
+);
 
 ?>
 {% endhighlight %}
