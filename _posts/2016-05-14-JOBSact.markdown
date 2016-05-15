@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "JOBS Act"
+date:   2016-05-14
+slug: jobs-act
+tags: Investing, JOBS act, Retail VC
+---
+This post needs to be filled out. 
+
+Talk about:
+- JOBS act 
+- The loosening of the rules around non-accredited investors being able to buy stakes in private companies 
+- the 1 million dollar cap on capital being raised. 
+- bring up loan shark companies like On Deck and other means of raising capital 
+- the brutality of (retail) FX and equity trading (buyer beware and hedging opptimisim)
+- That now people can now invest in companies that are not gigantic conglomerates that are almost impossible to fully understand especially from an outsiders' perspective. (normal people can now be competitive in active managment)
+- Research if any Maine or craft breweries are looking to leverage the law change 
+
+<!--
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+-->

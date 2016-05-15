@@ -16,14 +16,16 @@ permalink: longclaw
 
 ## Background
 
-A client asked us to create a new drupal theme and using the opprountity to make sitewide color changes more intuitive. 
+A client asked us to do a massive overhaul of their current site and I am using the opprountity to create a new Drupal theme with the focus of making sitewide color changes more intuitive and module. Fun facts: the base theme is named after my current employer, Shift Forex, and the new theme is named after Jon Snow's Valyrian sword, Longclaw. Yes, it could be name something more serious or relevant to the industry our clients opperate in (FX) but I am tremendously excited about season 6 and enjoy some light banter sprinkled throughout the workday.
 
-## Color.inc code for our base theme
+## Old Code 
+
+Here's the color.inc code for our base theme. 
 
 {% highlight php %}
 <? php
 // Put the logo path into JavaScript for the live preview
-drupal_add_js(array('color' => array('logo' => theme_get_setting'logo', 'longclaw'))), 'setting');
+drupal_add_js(array('color' => array('logo' => theme_get_setting'logo', 'shift_forex'))), 'setting');
 
 $info = array(
 	// Available colors and color labels used in theme
@@ -31,7 +33,7 @@ $info = array(
 		'theme' => t('Theme'),
 		'lighttheme' => t('Light theme'),
 		'lightertheme' => t('Lighter theme'),
-		'darktheme' => t('dark theme'),
+		'darktheme' => t('Dark theme'),
 		'alttheme' => t('Alternative theme'),
 		'lightalttheme' => t('Light alternative theme'),
 		'highlight' => t('Highlight'),
@@ -87,6 +89,18 @@ $info = array(
 ?>
 {% endhighlight %}
 
-The above code generates the following:
+The above code generates something very similar to the following:
 <img src="../images/color_settings_old.JPG">
 
+Alright, depending on your familarity with PHP, Drupal 7 theming, design rules and in general front end development you've probably have noticed numerous things. Ignore whatever you may have noticed or potentially don't understand for the time being and check out the names of the color selectors/ labels:
+Theme
+Highlight
+Light theme
+Lighter theme
+Dark theme
+Alternative theme
+Light alternative theme
+
+Theme, Highlight and arguably Alternative theme are the only items that someone ignorant of the inner workings of this code base could reasonably guess how a color assigned to said key would be rendered on the site. The Drupal admin interface is already scary enough (but I do think more logical than WP's) let's not make it any more so than need be. 
+
+## Need to post new code
