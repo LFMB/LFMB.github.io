@@ -20,5 +20,29 @@ A client asked us to create a new drupal theme and using the opprountity to make
 
 ## Current code
 
+{% highlight php %}
+<? php
+// Put the logo path into JavaScript for the live preview
+drupal_add_js(array('color' => array('logo' => theme_get_setting9'logo', 'longclaw'))), 'setting');
+
+$info = array(
+	// Available colors and color labels used in theme
+	'fields'=> array(
+		'theme' => t('Theme'),
+		'lighttheme' => t('Light theme'),
+		'lightertheme' => t('Lighter theme'),
+		'darktheme' => t('dark theme'),
+		'alttheme' => t('Alternative theme'),
+		'lightalttheme' => t('Light alternative theme'),
+		'highlight' => t('Highlight'),
+	),
+	// Pre-defined color schemes
+	'schemes' => array(
+		
+	),
+),
+
+?>
+{% endhighlight %}
 
 
