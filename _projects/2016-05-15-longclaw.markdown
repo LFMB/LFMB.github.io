@@ -20,8 +20,5 @@ A client asked us to create a new drupal theme and using the opprountity to make
 
 ## Current code
 
-{% highlight php %}
-some code
-{% highlight %}
 
 
