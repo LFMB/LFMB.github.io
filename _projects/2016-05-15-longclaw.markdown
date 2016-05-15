@@ -88,4 +88,5 @@ $info = array(
 {% endhighlight %}
 
 The above code generates the following:
-<img src="../images/color_settings_old.jpg">
+<img src="../images/color_settings_old.JPG">
+
