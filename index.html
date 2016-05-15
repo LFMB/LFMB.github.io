@@ -25,7 +25,7 @@ permalink: /
               <p class="card-text">
                 Technologies Used: 
                 {% for tag in project.tags %}
-                  <span class="project-tag">{{ tag }}</span>
+                  <span class="project-tag">{{ tag + ',' }}</span>
                 {% endfor %}
               </p>
               <a class="card-link" href="{{ project.url | prepend: site.baseurl }}">Nerd On</a>
