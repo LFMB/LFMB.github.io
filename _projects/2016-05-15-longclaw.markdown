@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Longclaw - New Drupal Theme"
-icon: fa-random
+icon: fa-bolt
 tags:
 - Drupal 7 theming,
 - Color Module, 
