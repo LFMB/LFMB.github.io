@@ -6,9 +6,7 @@ tags:
 - Drupal 7 theming,
 - Color Module, 
 - LESS,
-- PHP,
-- jQuery,
-- Vim
+- PHP
 
 permalink: longclaw
 ---
@@ -16,7 +14,7 @@ permalink: longclaw
 
 ## Background
 
-A client asked us to do a massive overhaul of their current site and I am using the opprountity to create a new Drupal theme with the focus of making sitewide color changes more intuitive and module. Fun facts: the base theme is named after my current employer, Shift Forex, and the new theme is named after Jon Snow's Valyrian sword, Longclaw. Yes, it could be name something more serious or relevant to the industry our clients opperate in (FX) but I am tremendously excited about season 6 and enjoy some light banter sprinkled throughout the workday.
+A client asked us to do a massive overhaul of their current site and I am using the opprountity to create a new Drupal theme with the focus of making sitewide color changes more intuitive and module. Fun facts: the base theme is named after my current employer, Shift Forex, and the new theme is named after Jon Snow's Valyrian sword, Longclaw. Yes, it could be named something more serious or relevant to the industry our clients opperate in (FX) but I am tremendously excited about season 6 and enjoy some light banter sprinkled throughout the workday.
 
 ## Old Code 
 
