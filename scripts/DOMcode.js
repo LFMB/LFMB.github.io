@@ -5,11 +5,13 @@ function domReady () {
   getSiteName();
 }
 
+/*
 function updateSiteName(name, element){
 	name.map(spannedLetter =>
 		element.innerHTML += spannedLetter;
 	);
 }
+*/
 
 function getSiteName() {
 	const siteName = document.querySelector('h2.name');
@@ -20,7 +22,11 @@ function getSiteName() {
   		`<span class="drumRoll">${letter}</span>`
   	);
 	//console.log(spannedSiteName);
-	return updateSiteName(spannedSiteName, siteName);
+	//return updateSiteName(spannedSiteName, siteName);
+
+	return spannedSiteNameArray.map(spanLetter => 
+		document.querySelector('h2.name').innerHTML += spanLetter
+	)
 
 }
 
