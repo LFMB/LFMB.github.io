@@ -14,9 +14,12 @@ function getSiteName() {
   		`<span class="drumRoll">${letter}</span>`
   	);
 
+
+
+
 	const domTarget = siteName.innerHTML;
 
-	document.querySelector('h2.name').removeChild(document.querySelector('h2.name').firstChild);
+	// document.querySelector('h2.name').removeChild(document.querySelector('h2.name').firstChild);
 
 	return spannedSiteNameArray.map(spanLetter => 
 		domTarget += spanLetter
