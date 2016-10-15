@@ -13,10 +13,11 @@ function getSiteName() {
   	//console.log(siteNameArray);
 
   	const spannedSiteName = siteNameArray.map(letter => 
-  		setTimeout(siteName.innerHTML += (`<span class="drumRoll">${letter}</span>`), 500);
+  		siteName.innerHTML += (`<span class="drumRoll">${letter}</span>`);
   	);
-
-  	return	spannedSiteName;
+ 
+ 	console.log(spannedSiteName);
+ 	
 }
 
 // Mozilla, Opera, Webkit 
