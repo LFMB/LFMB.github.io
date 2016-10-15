@@ -5,20 +5,28 @@ function domReady () {
   getSiteName();
 }
 
-
+function updateSiteName(name, element){
+	name.map(spannedLetter =>
+		setTimeout((element.innerHTML+= spannedLetter), 500);
+	);
+}
 
 function getSiteName() {
 	const siteName = document.querySelector('h2.name');
 	const siteNameArray = Array.from(siteName.innerText);
   	//console.log(siteNameArray);
 
-  	const spannedSiteName = siteNameArray.map(letter => 
-  		siteName.innerHTML += `<span class="drumRoll">${letter}</span>`;
+  	const spannedSiteNameArray = siteNameArray.map(letter => 
+  		`<span class="drumRoll">${letter}</span>`
   	);
- 
- 	console.log(spannedSiteName);
+	//console.log(spannedSiteName);
+	return updateSiteName(spannedSiteName, siteName);
 
 }
+
+
+
+
 
 // Mozilla, Opera, Webkit 
 if ( document.addEventListener ) {
