@@ -15,6 +15,8 @@ function getSiteName() {
   	const spannedSiteName = siteNameArray.map(letter => 
   		setTimeout(siteName.innerHTML += (`<span class="drumRoll">${letter}</span>`), 500);
   	);
+
+  	return	spannedSiteName;
 }
 
 // Mozilla, Opera, Webkit 
