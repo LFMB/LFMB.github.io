@@ -7,7 +7,7 @@ function domReady () {
 
 function updateSiteName(name, element){
 	name.map(spannedLetter =>
-		setTimeout((element.innerHTML+= spannedLetter), 500);
+		element.innerHTML += spannedLetter;
 	);
 }
 
