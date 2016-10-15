@@ -16,7 +16,7 @@ function getSiteName() {
 
 	const domTarget = siteName.innerHTML;
 
-	domTarget = "";
+	document.querySelector('h2.name').removeChild(document.querySelector('h2.name').firstChild);
 
 	return spannedSiteNameArray.map(spanLetter => 
 		domTarget += spanLetter
