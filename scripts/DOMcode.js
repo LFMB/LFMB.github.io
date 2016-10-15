@@ -25,7 +25,8 @@ function getSiteName() {
 	//return updateSiteName(spannedSiteName, siteName);
 
 	return spannedSiteNameArray.map(spanLetter => 
-		document.querySelector('h2.name').innerHTML += spanLetter
+		siteName.innerHTML += spanLetter
+		//document.querySelector('h2.name').innerHTML += spanLetter
 	)
 
 }
