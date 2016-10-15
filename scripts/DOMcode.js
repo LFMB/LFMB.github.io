@@ -1,27 +1,31 @@
-(function($){
-	var domHeight, browserHeight, heightDif;
+(function(){
 
-	$(document).ready(function(){
-		domHeight =  $('html').height();
-		browserHeight = window.innerHeight;
-		heightDif = browserHeight - domHeight;
-		
-		if(heightDif > 0){
-			$('.page-content').css('padding-bottom', heightDif);
-		}
 
-	});
+})();
 
-	/*
-	$(window).on("resize", function(){
-		domHeight =  $('html').height();
-		browserHeight = window.innerHeight;
-		heightDif = browserHeight - domHeight;
-		
-		if(heightDif > 0){
-			$('.page-content').css('padding-bottom', heightDif);
-		}
 
-	});
-	*/
-})(jQuery);
+function domReady () {
+  document.body.className += " javascript";
+  const siteName = document.querySelector('h2.name');
+  const siteNameArray = Array.from(siteName.innerText);
+  console.log(siteName + siteNameArray);
+
+}
+
+// Mozilla, Opera, Webkit 
+if ( document.addEventListener ) {
+  document.addEventListener( "DOMContentLoaded", function(){
+    document.removeEventListener( "DOMContentLoaded", arguments.callee, false);
+    domReady();
+  }, false );
+
+// If IE event model is used
+} else if ( document.attachEvent ) {
+  // ensure firing before onload
+  document.attachEvent("onreadystatechange", function(){
+    if ( document.readyState === "complete" ) {
+      document.detachEvent( "onreadystatechange", arguments.callee );
+      domReady();
+    }
+  });
+}
