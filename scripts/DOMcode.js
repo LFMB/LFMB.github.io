@@ -1,15 +1,16 @@
-(function(){
-
-
-})();
 
 
 function domReady () {
   document.body.className += " javascript";
-  const siteName = document.querySelector('h2.name');
-  const siteNameArray = Array.from(siteName.innerText);
-  console.log(siteName + siteNameArray);
+  getSiteName();
+}
 
+
+
+function getSiteName() {
+	const siteName = document.querySelector('h2.name');
+	const siteNameArray = Array.from(siteName.innerText);
+  	console.log(siteNameArray);
 }
 
 // Mozilla, Opera, Webkit 
