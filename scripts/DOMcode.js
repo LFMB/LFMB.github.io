@@ -10,7 +10,11 @@ function domReady () {
 function getSiteName() {
 	const siteName = document.querySelector('h2.name');
 	const siteNameArray = Array.from(siteName.innerText);
-  	console.log(siteNameArray);
+  	//console.log(siteNameArray);
+
+  	const spannedSiteName = siteNameArray.map(letter => 
+  		setTimeout(siteName.innerHTML += (`<span class="drumRoll">${letter}</span>`), 500);
+  	);
 }
 
 // Mozilla, Opera, Webkit 
