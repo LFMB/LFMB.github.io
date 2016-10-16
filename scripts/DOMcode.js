@@ -2,18 +2,12 @@
 
 function domReady () {
   document.body.className += " javascript";
-  getSiteName();
+  spanSiteName();
 }
 
-/*
-function updateSiteName(name, element){
-	name.map(spannedLetter =>
-		element.innerHTML += spannedLetter;
-	);
-}
-*/
 
-function getSiteName() {
+
+function spanSiteName() {
 	const siteName = document.querySelector('h2.name');
 	const siteNameArray = Array.from(siteName.innerText);
 
@@ -30,6 +24,19 @@ function getSiteName() {
 }
 
 
+// iterate over array with a pause and toggle the class drum-roll 
+function drumRoll(){
+	const drumRollNodes = Array.from(document.querySelectorAll('.name span'));
+
+	const drumRollList = drumRollNodes.filter((node) => node.innerText !== " ");
+
+	// might have to use a Promise
+	drumRollList.map( drumRollNode =>
+		setTimeout(() => {
+			console.log(drumRollNode)
+		}, 1000)
+	)
+}
 
 
 
