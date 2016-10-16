@@ -3,6 +3,7 @@
 function domReady () {
   document.body.className += " javascript";
   spanSiteName();
+  drumRoll();
 }
 
 
