@@ -18,7 +18,7 @@ function getSiteName() {
 	const siteNameArray = Array.from(siteName.innerText);
 
   	const spannedSiteNameArray = siteNameArray.map(letter => 
-  		`<span class="drum-roll">${letter}</span>`
+  		`<span>${letter}</span>`
   	);
 
 	siteName.innerHTML = "";

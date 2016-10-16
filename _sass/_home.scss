@@ -23,13 +23,12 @@
 			    font-weight: 700;
 			    text-shadow: 2px -2px #000;
 			    font-size: 4rem;
-			    //transition: all 1.5s ease;
 			    .drum-roll{
-			    	/*
-					-webkit-transform: rotateX(360deg); 
-					-ms-transform: rotateX(360deg);
-					transform: rotateX(360deg);
-					*/
+			    	display: inline-block;
+			    	-webkit-animation: flip 2s infinite;
+  					-moz-animation: flip 2s infinite;
+  					-o-animation: flip 2s infinite;
+			    	animation: flip 2s infinite;
 			    }
 			}
 			.hero-tagline{
