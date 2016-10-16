@@ -14,6 +14,8 @@
 	    .intro-text{
 			position: relative;
 			top: 50%;
+			-webkit-transform: translateY(-50%); 
+      		-ms-transform: translateY(-50%);
 			transform: translateY(-50%);
 			.name{
 				font-family: Montserrat, Helvetica,Arial,sans-serif;
@@ -21,6 +23,12 @@
 			    font-weight: 700;
 			    text-shadow: 2px -2px #000;
 			    font-size: 4rem;
+			    transition: all 1.5s ease;
+			    .drum-roll{
+					-webkit-transform: rotateX(360deg); 
+					-ms-transform: rotateX(360deg);
+					transform: rotateX(360deg);
+			    }
 			}
 			.hero-tagline{
 				font-family: Montserrat, Helvetica,Arial,sans-serif;
