@@ -21,13 +21,11 @@ function getSiteName() {
   		`<span class="drumRoll">${letter}</span>`
   	);
 
-	const domTarget = siteName.innerHTML;
+	siteName.innerHTML = "";
 
-	//domTarget = "";
-
-	return spannedSiteNameArray.map(spanLetter => 
-		domTarget += spanLetter;
-	)
+	spannedSiteNameArray.map(spanLetter => 
+		siteName.innerHTML += spanLetter
+	);
 
 }
 
