@@ -52,7 +52,7 @@ permalink: /
 
   <section class="container-fluid state-of-union">
 
-
+  <div id="fin-grid"></div>
 
   </section>
 </div>
@@ -110,4 +110,23 @@ const stateGDPdata = [
 {"state": "Oregon", "2015-Q1" : 211217, "2015-Q2" : 213381, "2015-Q3" : 218017, "2015-Q4" : 218711, "2016-Q1" : 221308},
 {"state": "Washington", "2015-Q1" : 433012, "2015-Q2" : 443335, "2015-Q3" : 447738, "2015-Q4" : 450575, "2016-Q1" : 455943}
 ];
+</script>
+
+
+<script src="https://openfin.github.io/fin-hypergrid/build/fin-hypergrid.js"></script>
+
+<script>
+    var data = [
+       { symbol: 'APPL', name: 'Apple Inc.', prevclose: 93.13 },
+       { symbol: 'MSFT', name: 'Microsoft Corporation', prevclose: 51.91 },
+       { symbol: 'TSLA', name: 'Tesla Motors Inc.', prevclose: 196.40 },
+       { symbol: 'IBM', name: 'International Business Machines Corp', prevclose: 155.35 }
+    ];
+
+    var grid = new fin.Hypergrid('#fin-grid', { data: data });
+
+    grid.addProperties({
+        showRowNumbers: false,
+        showFilterRow: false
+    });
 </script>
