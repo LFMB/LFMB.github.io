@@ -24,6 +24,7 @@ function spanSiteName() {
 
 }
 
+/* TODO: fix up animation of "downeast markets" homepage */
 
 // iterate over array with a pause and toggle the class drum-roll 
 function drumRoll(){
@@ -33,8 +34,8 @@ function drumRoll(){
 
 	// might have to use a Promise
 	drumRollList.map( drumRollNode =>
-		setTimeout(() => {
-			console.log(drumRollNode)
+		setInterval(() => {
+		//	console.log(drumRollNode)
 		}, 1000)
 	)
 }
