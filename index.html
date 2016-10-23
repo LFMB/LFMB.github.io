@@ -1,4 +1,10 @@
---- layout: default title: Home order: 1 permalink: / ---
+---
+layout: default
+title: Home
+order: 1
+permalink: /
+---
+
 <div class="home">
     <section class="container-fluid hero-banner">
         <div class="intro-text">
@@ -6,43 +12,7 @@
             <p class="hero-tagline">{{ site.description }}</p>
         </div>
     </section>
-    <!--
-  <section class="container-fluid recent-projects">
-    <h2 class="col-xs-12 section-title">Recent Projects</h2>
-    <div class="card-deck-wrapper">
-      <div class="card-deck">
-        {% for project in site.projects %}
-          <div class="card card-block text-xs-center">
-            <i class="card-img-top fa fa-3x {{ project.icon }} "></i>
-            <div class="card-block">
-              <h4 class="card-title">{{ project.title }}</h4>
-              <p class="card-text">
-                Technologies Used: 
-                {% for tag in project.tags %}
-                  <span class="project-tag">{{ tag }}</span>
-                {% endfor %}
-              </p>
-              <a class="card-link" href="{{ project.url | prepend: site.baseurl }}">Nerd On</a>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  <section class="container-fluid recent-articles">
-    <h2 class="col-xs-12">Recent Posts</h2>
-    <ul class="post-list col-xs-12 list-unstyled">
-      {% for post in site.posts %}
-        <li class="col-sm-4 col-xs-6">
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-          <p>{{ post.excerpt }}</p>
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
-  -->
+
     <section class="container-fluid state-of-union">
         <div id="fin-grid"></div>
     </section>
