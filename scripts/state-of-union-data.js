@@ -1174,7 +1174,7 @@ var data = [{
     }
 ];
 
-const perCapitaDif = [{
+var perCapitaDif = [{
         "state": 'United States',
         "2015 Pop.": 321418820,        
         "2015-Q1": 54550,                        
