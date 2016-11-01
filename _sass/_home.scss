@@ -50,11 +50,14 @@
 	*/
 	.state-of-union{
 		display: block;
-		height: 100vh;
-		width: 100vw;
+		float: left;
+		width: 100%;
+		height: 900px;
+		background: #dedede;
 	    #state-of-union-grid{
-	    	height: 100vh;
-			width: 100vw;
+	    	height: 80%;
+			width: 50%;
+			float: left;
 		}
 	}	
 }
