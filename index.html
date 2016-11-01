@@ -4,7 +4,7 @@ title: Home
 order: 1
 permalink: /
 ---
-<script src="https://openfin.github.io/fin-hypergrid/build/fin-hypergrid.js">
+<script src="https://openfin.github.io/fin-hypergrid/build/fin-hypergrid.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <div class="home">
     <section class="container-fluid hero-banner">
@@ -16,8 +16,13 @@ permalink: /
     <section class="state-of-union">
         <div id="state-of-union-grid"></div>
     </section>
+    <section class="usa-map-container">
+        <div id="usa-map">
+
+        </div>
+    </section>
 </div>
-</script>
+
 <script src="../scripts/state-of-union-data.js"></script>
 <script>
 
@@ -76,7 +81,7 @@ var color = d3.scale.linear()
 var legendText = ["Cities Lived", "States Lived", "States Visited", "Nada"];
 
 //Create SVG element and append map to the SVG
-var svg = d3.select("body")
+var svg = d3.select(".usa-map")
             .append("svg")
             .attr("width", width)
             .attr("height", height);
@@ -88,11 +93,11 @@ var div = d3.select("body")
             .style("opacity", 0);
 
 // Load in my states data!
-d3.csv("stateslived.csv", function(data) {
+d3.csv("data/statesLived.csv", function(data) {
 color.domain([0,1,2,3]); // setting the range of the input data
 
 // Load GeoJSON data and merge with states data
-d3.json("us-states.json", function(json) {
+d3.json("data/us-states.json", function(json) {
 
 // Loop through each state data value in the .csv file
 for (var i = 0; i < data.length; i++) {
@@ -142,7 +147,7 @@ svg.selectAll("path")
 
          
 // Map the cities I have lived in!
-d3.csv("cities-lived.csv", function(data) {
+d3.csv("data/cities-lived.csv", function(data) {
 
 svg.selectAll("circle")
     .data(data)
