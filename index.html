@@ -4,7 +4,7 @@ title: Home
 order: 1
 permalink: /
 ---
-<script src="https://openfin.github.io/fin-hypergrid/build/fin-hypergrid.js"></script>
+<!-- <script src="https://openfin.github.io/fin-hypergrid/build/fin-hypergrid.js"></script> -->
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <div class="home">
     <section class="container-fluid hero-banner">
@@ -13,16 +13,20 @@ permalink: /
             <p class="hero-tagline">{{ site.description }}</p>
         </div>
     </section>
+    <!-- hypergrid chart - it's just too vertical to be useful
     <section class="state-of-union">
         <div id="state-of-union-grid"></div>
     </section>
+    -->
     <section class="usa-map-container">
+    	<h2 class="state-of-union-map-title">State of the Union</h2>
+  		<p>The following will be a state by state general economic background</p>
         <div id="usa-map">
 
         </div>
     </section>
 </div>
-
+<!-- 
 <script src="../scripts/state-of-union-data.js"></script>
 <script>
 
@@ -45,10 +49,10 @@ grid.addProperties({
     defaultColumnWidth: 100
 });
 </script>
+-->
 
 <script type="text/javascript">
 const containerWidth = document.querySelector('.usa-map-container').clientWidth;
-
 console.log(containerWidth);
 
 var width = 960;
