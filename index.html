@@ -74,7 +74,7 @@ var svg = d3.select("#usa-map")
             .attr("height", height);
         
 // Append Div for tooltip to SVG
-var div = d3.select("body")
+var div = d3.select("#usa-map")
             .append("div")   
             .attr("class", "tooltip")               
             .style("opacity", 0);
@@ -172,7 +172,7 @@ svg.selectAll("circle")
 });  
         
 // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
-var legend = d3.select("body").append("svg")
+var legend = d3.select("#usa-map").append("svg")
                 .attr("class", "legend")
                 .attr("width", 140)
                 .attr("height", 200)
