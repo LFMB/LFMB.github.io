@@ -56,6 +56,8 @@ console.log(containerWidth);
 var width = 960;
 var height = 500;
 
+window.data = {};
+
 var projection = d3.geo.albersUsa()
     .translate([width / 2, height / 2])
     .scale([1000]); // scale things down so see entire US
@@ -81,33 +83,34 @@ var div = d3.select("#usa-map")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
+/*
 d3.json("data/per-capita-gdp.json", function(json){
 
-    /*
+   
     console.log(json.nation);
     console.log(json.states.length);
-    */
+    
     var statesArrayLength = json.states.length;
-    /*
+   
     for(var i = 0; i <statesArrayLength; i++){
         console.log("state: " + json.states[i].state + " 2015 Q1 per capita GDP: " + json.states[i]["2015-Q1"]);
     }
-    */
+    
    var max2015q1 = d3.max(json.states, function(d) {return d["2015-Q1"]});
    var min2015q1 = d3.min(json.states, function(d) {return d["2015-Q1"]});
 
    //console.log("Max value: " + max2015q1 + " Min value: " + min2015q1);
 
    color.domain([min2015q1, max2015q1]);
-    /*
+    
     for(var i = 0; i <statesArrayLength; i++){
 
         console.log("state: " + json.states[i].state + " 2015 Q1 per capita GDP: " + json.states[i]["2015-Q1"]);
     }
-    */
+    
 
 });
-
+*/
 
 
 // Load in my states data!
@@ -129,42 +132,43 @@ d3.json("data/per-capita-gdp.json", function(data) {
             jsonState,
             jsonData;
 
-        // Loop through each state data value in the gdp file
+        window.data.usaMap = json;
+        window.data.useGdp = data;
 
+        // Loop through each state data value in the gdp file
+        /*
         for (var i = 0; i < data.states.length; i++) {
 
             // Grab State Name
             dataState = data.states[i]["state"];
 
             // Grab data value 
-            dataValue = data.states[i]["2015-Q1"];
-
-            //console.log(`state: ${dataState} gdp dif ${dataValue}`);
+            dataValue = data.states[i]["2015-Q1"];           
 
             // Find the corresponding state inside the GeoJSON
+            if()
             
         }
-           for (var j = 0; j < json.features.length; j++) {
-                jsonState = json.features[j].properties.name;
-                //jsonData = json.features[j].properties["2015-Q1"];
 
+        for (var j = 0; j < json.features.length; j++) {
+            jsonState = json.features[j].properties.name;
+            //jsonData = json.features[j].properties["2015-Q1"];
+
+
+            console.log("state: " + jsonState);
+
+            if (dataState = jsonState) {
+
+                // Copy the data value into the JSON
+                jsonData = dataValue;
 
                 console.log("state: " + jsonState);
 
-
-                /*
-                if (dataState = jsonState) {
-
-                    // Copy the data value into the JSON
-                    jsonData = dataValue;
-
-                    console.log("state: " + jsonState);
-
-                    console.log("2015 1Q GDP Dif: " + dataValue);
-                    
-                }
-                */
-            }
+                console.log("2015 1Q GDP Dif: " + dataValue);
+                
+            }   
+        }
+        */
 
         // Bind the data to the SVG and create one path per GeoJSON feature
         svg.selectAll("path")
