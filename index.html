@@ -133,7 +133,13 @@ d3.json("data/per-capita-gdp.json", function(data) {
             jsonData;
 
         window.data.usaMap = json;
-        window.data.useGdp = data;
+        window.data.usaGdp = data;
+
+        // filtered gdp and state name array of objects
+        const q1GDP2015 = window.data.usaGdp.states.map( state => ({ gdpDif: state["2015-Q1"], state: state.state}));
+
+        console.log(q1GDP2015);
+
 
         // Loop through each state data value in the gdp file
         /*
