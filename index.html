@@ -68,7 +68,7 @@ var path = d3.geo.path().projection(projection);
 var color = d3.scale.linear()
     .range(["rgb(255,0,0)", "rgb(0,128,0)"]);
 
-var legendText = ["Cities Lived", "States Lived", "States Visited", "Nada"];
+var legendText = ["Above", "Below", "States Visited", "Nada"];
 
 //Create SVG element and append map to the SVG
 var svg = d3.select("#usa-map")
@@ -99,16 +99,14 @@ d3.json("data/per-capita-gdp.json", function(data) {
 
     // Load GeoJSON data and merge with states data
     d3.json("data/us-states.json", function(json) {
-        var dataState,
-            dataValue,
-            jsonState,
-            jsonData;
 
         let stateName = '',
             stateDiff = 0;
 
-        window.data.usaMap = json;
-        window.data.usaGdp = data;
+    	const q1GDP2015 = data.states.map(state => ({
+            gdpDif: state["2015-Q1"],
+            state: state.state
+        }));
 
         function filterByPropertiesName(obj) {
             if (obj.properties.name === stateName) {
@@ -116,21 +114,12 @@ d3.json("data/per-capita-gdp.json", function(data) {
             }
         }
 
-        // filtered gdp and state name array of objects
-        const q1GDP2015 = window.data.usaGdp.states.map(state => ({
-            gdpDif: state["2015-Q1"],
-            state: state.state
-        }));
-
 
         for (let a = 0; a < q1GDP2015.length; a++) {
             stateName = q1GDP2015[a]['state'];
             stateDiff = q1GDP2015[a]['gdpDif'];
 
-            
-
             json.features.filter(filterByPropertiesName);
-
         }
 
         
@@ -161,7 +150,7 @@ d3.json("data/per-capita-gdp.json", function(data) {
 
 
         // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
-        /*
+       
         var legend = d3.select("#usa-map").append("svg")
             .attr("class", "legend")
             .attr("width", 140)
@@ -187,7 +176,7 @@ d3.json("data/per-capita-gdp.json", function(data) {
             .text(function(d) {
                 return d;
             });
-        */
+       
     });
 
 });
