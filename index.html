@@ -66,9 +66,9 @@ var path = d3.geo.path().projection(projection);
 
 // Define linear scale for output
 var color = d3.scale.linear()
-    .range(["rgb(255,0,0)", "rgb(0,128,0)"]);
+    .range(["rgb(255,0,0)", "rgb(255,255,255)", "rgb(0,128,0)"]);
 
-var legendText = ["Above", "Below", "States Visited", "Nada"];
+var legendText = ["Above", "Average", "Below", "Nada"];
 
 //Create SVG element and append map to the SVG
 var svg = d3.select("#usa-map")
@@ -94,7 +94,7 @@ d3.json("data/per-capita-gdp.json", function(data) {
     });
 
 
-    color.domain([min2015q1, max2015q1]);
+    color.domain([min2015q1, 0, max2015q1]);
 
 
     // Load GeoJSON data and merge with states data
