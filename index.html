@@ -18,45 +18,30 @@ permalink: /
         <div id="state-of-union-grid"></div>
     </section>
     -->
-    <section class="usa-map-container">
+    <section class="usa-map-container text-center">
         <h2 class="state-of-union-map-title">State of the Union</h2>
-        <p>The following will be a state by state general economic background</p>
+        <p>2015 Q1 Per Capita Breakdown of Grand Domestic Product (GDP) by state compared to national average</p>
         <div id="usa-map">
         </div>
     </section>
 </div>
-<!-- 
-<script src="../scripts/state-of-union-data.js"></script>
-<script>
 
-var grid = new fin.Hypergrid('#state-of-union-grid', {
-    data: perCapitaDif
-    //data: formatedPerCapitaDif
-});
-
-grid.addProperties({
-    showRowNumbers: false,
-    showFilterRow: true,
-    backgroundColor: 'rgb(255,255,255)',
-    useHiDPI: true,
-    gridLinesH: true,
-    gridLinesV: true,
-    color: 'rgb(0,0,0)',
-    columnAutosizing: false,
-    headerTextWrapping: false,
-    multipleSelections: true,
-    defaultColumnWidth: 100
-});
-</script>
--->
 <script type="text/javascript">
-const containerWidth = document.querySelector('.usa-map-container').clientWidth;
-console.log(containerWidth);
+var containerWidth = document.querySelector('.usa-map-container').clientWidth,
+	height = 500,
+	width;
 
-var width = 960;
-var height = 500;
 
-window.data = {};
+if(containerWidth > 840){
+	width = containerWidth;
+} else {
+	width = 960;
+}
+
+
+
+
+// window.data = {};
 
 var projection = d3.geo.albersUsa()
     .translate([width / 2, height / 2])
@@ -153,8 +138,8 @@ d3.json("data/per-capita-gdp.json", function(data) {
        
         var legend = d3.select("#usa-map").append("svg")
             .attr("class", "legend")
-            .attr("width", 140)
-            .attr("height", 200)
+            .attr("width", 100)
+            .attr("height", 80)
             .selectAll("g")
             .data(color.domain().slice().reverse())
             .enter()

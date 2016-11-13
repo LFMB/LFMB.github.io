@@ -61,10 +61,14 @@
 		}
 	}
 	.usa-map-container{
+		text-align: center;
+		padding: 40px 0 20px;
+		background: #dedede;
 		#usa-map{
 			float: left;
 			width: 100%;
 			position: relative;
+			background: #dedede;
 		}
 	}	
 }
@@ -115,7 +119,7 @@ body {
         
 /* Legend Position Style */
 .legend {
-	position:absolute;
-	left:800px;
-	top:350px;
+	position: absolute;
+    right: 0;
+    bottom: 0;
 }
