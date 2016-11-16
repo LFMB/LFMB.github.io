@@ -137,13 +137,20 @@ d3.json("data/per-capita-gdp.json", function(data) {
                 }
                
             })
-            .on("mouseover", function(d) {      
+            .on("mouseover", function(d) { 
+                var mouse = d3.mouse(svg.node()).map(function(d) {
+                    return parseInt(d);
+                });     
                 tooltip.transition()        
                    .duration(200)      
                    .style("opacity", .9);      
                    tooltip.text(d.properties["diff"])
+                   .attr('style', 'left:' + (mouse[0] + 15) +
+                                'px; top:' + (mouse[1] - 35) + 'px');
+                   /*
                    .style("left", (d3.event.pageX) + "px")     
-                   .style("top", (d3.event.pageY - 28) + "px");    
+                   .style("top", (d3.event.pageY - 28) + "px");   
+                   */ 
             })                 
             .on("mouseout", function(d) {       
                 tooltip.transition()        
