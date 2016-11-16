@@ -68,7 +68,7 @@ var svg = d3.select("#usa-map")
     .attr("height", height);
 
 // Append Div for tooltip to SVG
-var div = d3.select("#usa-map")
+var tooltip = d3.select("#usa-map")
     .append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
@@ -136,6 +136,19 @@ d3.json("data/per-capita-gdp.json", function(data) {
                    return "rgb(213,222,217)";
                 }
                
+            })
+            .on("mouseover", function(d) {      
+                tooltip.transition()        
+                   .duration(200)      
+                   .style("opacity", .9);      
+                   div.text(d.properties["diff"])
+                   .style("left", (d3.event.pageX) + "px")     
+                   .style("top", (d3.event.pageY - 28) + "px");    
+            })                 
+            .on("mouseout", function(d) {       
+                tooltip.transition()        
+                   .duration(500)      
+                   .style("opacity", 0);   
             });
 
 
