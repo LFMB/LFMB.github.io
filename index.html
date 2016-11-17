@@ -174,7 +174,9 @@ d3.json("data/per-capita-gdp.json", function(data) {
 
         nationalPerCapita.data(data.nation)
                     .enter()
-                    .text("The national breakdown: " + d["2015-Q1-converted"]);
+                    .text(function(d){
+                        return "The national breakdown: " + d['2015-Q1-converted'];
+                    });
        
         var legend = d3.select("#usa-map").append("svg")
             .attr("class", "legend")
