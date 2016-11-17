@@ -23,7 +23,7 @@ permalink: /
     -->
     <section class="usa-map-container text-center">
         <h2 class="state-of-union-map-title">State of the Union</h2>
-        <p class="state-of-union-blurb">2015 Q1 Per Capita Breakdown of Grand Domestic Product (GDP) by state compared to national average</p>
+        <p class="state-of-union-blurb"><span class="state-union-time-period">2015 Q1</span> Per Capita Breakdown of Grand Domestic Product (GDP) by state compared to national average</p>
         <div id="usa-map">
         </div>
         <p class="state-of-union-methodology-blurb">
@@ -60,6 +60,18 @@ var color = d3.scale.linear()
     .range(["rgb(255,0,0)", "rgb(255,255,255)", "rgb(0,128,0)"]);
 
 var legendText = ["Above", "Average", "Below", "Nada"];
+
+/*
+var mapTitle = d3.select('#usa-map')
+                .append('h2')
+                .attr("class", "state-of-union-map-title")
+                .text('State of the Union');
+*/
+
+var nationalPerCapita = d3.select('#usa-map')
+                    .append('p')
+                    .attr('class', 'quarterly-national-breakdown');
+
 
 //Create SVG element and append map to the SVG
 var svg = d3.select("#usa-map")
@@ -156,11 +168,13 @@ d3.json("data/per-capita-gdp.json", function(data) {
                 tooltip.transition()        
                    .duration(500)      
                    .style("opacity", 0);   
-            });
+            }
+        );
 
 
-
-        // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
+        nationalPerCapita.data(data.nation)
+                    .enter()
+                    .text("The national breakdown: " + d["2015-Q1-converted"]);
        
         var legend = d3.select("#usa-map").append("svg")
             .attr("class", "legend")
@@ -172,7 +186,8 @@ d3.json("data/per-capita-gdp.json", function(data) {
             .append("g")
             .attr("transform", function(d, i) {
                 return "translate(0," + i * 20 + ")";
-            });
+            }
+        );
 
         legend.append("rect")
             .attr("width", 18)
@@ -186,8 +201,10 @@ d3.json("data/per-capita-gdp.json", function(data) {
             .attr("dy", ".35em")
             .text(function(d) {
                 return d;
-            });
+            }
+        );
        
+
     });
 
 });
