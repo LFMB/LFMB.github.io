@@ -47,6 +47,7 @@ if(containerWidth > 840){
 
 
 
+
 // window.data = {};
 
 var projection = d3.geo.albersUsa()
@@ -67,11 +68,7 @@ var mapTitle = d3.select('#usa-map')
                 .attr("class", "state-of-union-map-title")
                 .text('State of the Union');
 */
-
-var nationalPerCapita = d3.select('#usa-map')
-                    .append('p')
-                    .attr('class', 'quarterly-national-breakdown');
-
+                    
 
 //Create SVG element and append map to the SVG
 var svg = d3.select("#usa-map")
@@ -84,6 +81,11 @@ var tooltip = d3.select("#usa-map")
     .append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
+
+
+var nationalPerCapita = d3.select('#usa-map')
+    .append("p")
+    .attr('class', 'quarterly-national-breakdown');
 
 // Load in my states data!
 d3.json("data/per-capita-gdp.json", function(data) {
@@ -99,6 +101,17 @@ d3.json("data/per-capita-gdp.json", function(data) {
 
     color.domain([min2015q1, 0, max2015q1]);
 
+
+
+    /*
+    nationalPerCapita
+            .data(data.nation)
+            .enter()
+            .text(function(d) {
+                return d;
+            });
+    */
+    console.log(data.nation["2015-Q1-converted"]);
 
     // Load GeoJSON data and merge with states data
     d3.json("data/us-states.json", function(json) {
@@ -171,13 +184,8 @@ d3.json("data/per-capita-gdp.json", function(data) {
             }
         );
 
-
-        nationalPerCapita.data(data.nation)
-                    .enter()
-                    .text(function(d){
-                        return "The national breakdown: " + d['2015-Q1-converted'];
-                    });
-       
+                    
+         
         var legend = d3.select("#usa-map").append("svg")
             .attr("class", "legend")
             .attr("width", 100)
