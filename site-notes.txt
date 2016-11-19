@@ -1,0 +1,67 @@
+state name
+Quarterly per capita 
+
+Tool Tip Mock Up
+State: Alabama
+Per Capita GDP: $41,673
+Diff from Nation: $ 
+% Diff from Nation: 
+Current Econ Rank:
+Previous Econ Rank:
+Est. Popuation: 
+
+
+
+
+
+<h2>State of Union</h2>
+	
+`${selectedQuarter} Per Capita Breakdown of Grand Domestic Product (GDP) by state compared to national average`
+
+`National Per Capita GDP: ${selectedQuarter.nation['per capita GDP']}`
+
+
+map
+
+
+quarter-1 quarter-2 quarter-3 ... quarter-n
+
+
+{
+	nation: {
+		"name": "United States of America",
+		"population": 321418820,
+		"years": [
+			2015: [
+				"Q1": {
+					"converted": {
+						"GDP": ,
+						"Per Capita GDP": ,
+						"percent diff": ,
+						"actual dif": ,
+					},
+					"raw": {
+						"GDP": ,
+						"Per Capita GDP": ,
+						"percent diff": ,
+						"actual dif": ,
+					},
+					"current econ rank": ,
+					"previous econ rank": ,
+				}
+			]
+		]
+
+		},
+
+		"quarters": [
+			"2015"
+		]
+	}
+
+		"2015-"
+	]
+}
+
+
+

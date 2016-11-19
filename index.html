@@ -4,8 +4,9 @@ title: Home
 order: 1
 permalink: /
 ---
-<!-- <script src="https://openfin.github.io/fin-hypergrid/build/fin-hypergrid.js"></script> -->
+<!-- <script src="https://openfin.github.io/fin-hypergrid/build/fin-hypergrid.js"></script> 
 <script src="http://d3js.org/d3.v3.min.js"></script>
+-->
 <div class="home">
     <section class="container-fluid hero-banner">
         <div class="intro-text">
@@ -26,6 +27,25 @@ permalink: /
         <p class="state-of-union-blurb"><span class="state-union-time-period">2015 Q1</span> Per Capita Breakdown of Grand Domestic Product (GDP) by state compared to national average</p>
         <div id="usa-map">
         </div>
+        <div class="quarter-selector-container">
+            <ul class="list-unstyled quarter-selector-options">
+                <li class="btn quarter-selector active">
+                    <apan id="2015-Q1">2015 Q1</span>
+                </li>
+                <li class="btn quarter-selector">
+                    <span id="2015-Q2">2015 Q2</span>
+                </li>
+                <li class="btn quarter-selector">
+                    <span id="2015-Q3">2015 Q3</span>
+                </li>
+                <li class="btn quarter-selector">
+                    <span id="2015-Q4">2015 Q4</span>
+                </li>
+                <li class="btn quarter-selector">
+                    <span id="2016-Q1">2016 Q1</span>
+                </li>
+            </ul>   
+        </div>
         <p class="state-of-union-methodology-blurb">
         Took the most current (2015) United States Population statistics from the <a href="http://www.census.gov/popest/data/index.html" target="_blank">United States Census Bureau</a> coupled with the 2015 and available 2016 Quartely GDP numbers by state from the <a href="http://www.bea.gov/newsreleases/regional/gdp_state/qgsp_newsrelease.htm" target="_blank">Bureau of Economic Analysis</a> and used the data to generate per capita breakdowns by state looking at actual and percent difference from national mean. 
         </p>
@@ -38,17 +58,12 @@ var containerWidth = document.querySelector('.usa-map-container').clientWidth,
 	width;
 
 
-if(containerWidth > 840){
-	width = containerWidth;
-} else {
-	width = 960;
-}
-
-
-
-
-
 // window.data = {};
+if(containerWidth > 840){
+    width = containerWidth;
+} else {
+    width = 960;
+}
 
 var projection = d3.geo.albersUsa()
     .translate([width / 2, height / 2])
@@ -88,38 +103,30 @@ var nationalPerCapita = d3.select('#usa-map')
     .attr('class', 'quarterly-national-breakdown');
 
 // Load in my states data!
-d3.json("data/per-capita-gdp.json", function(data) {
+d3.json("data/per-capita-gdp.json", function(rawGDPbreakdowns) {
 
 
-    var max2015q1 = d3.max(data.states, function(d) {
+    var max2015q1 = d3.max(rawGDPbreakdowns.states, function(d) {
         return d["2015-Q1"]
     });
-    var min2015q1 = d3.min(data.states, function(d) {
+    var min2015q1 = d3.min(rawGDPbreakdowns.states, function(d) {
         return d["2015-Q1"]
     });
 
 
     color.domain([min2015q1, 0, max2015q1]);
 
+    
+    nationalPerCapita.text('national per capita: ' + converted.nation["2015-Q1-converted"]);
 
-
-    /*
-    nationalPerCapita
-            .data(data.nation)
-            .enter()
-            .text(function(d) {
-                return d;
-            });
-    */
-    console.log(data.nation["2015-Q1-converted"]);
 
     // Load GeoJSON data and merge with states data
-    d3.json("data/us-states.json", function(json) {
+    d3.json("data/us-states.json", function(usamap) {
 
         let stateName = '',
             stateDiff = 0;
 
-    	const q1GDP2015 = data.states.map(state => ({
+    	let selectedQuarter = rawGDPbreakdowns.states.map(state => ({
             gdpDif: state["2015-Q1"],
             state: state.state
         }));
@@ -135,14 +142,14 @@ d3.json("data/per-capita-gdp.json", function(data) {
             stateName = q1GDP2015[a]['state'];
             stateDiff = q1GDP2015[a]['gdpDif'];
 
-            json.features.filter(filterByPropertiesName);
+            usamap.features.filter(filterByPropertiesName);
         }
 
         
 
         // Bind the data to the SVG and create one path per GeoJSON feature
         svg.selectAll("path")
-            .data(json.features)
+            .data(usamap.features)
             .enter()
             .append("path")
             .attr("d", path)
@@ -174,7 +181,7 @@ d3.json("data/per-capita-gdp.json", function(data) {
                                 'px; top:' + (mouse[1] - 35) + 'px');
                    /*
                    .style("left", (d3.event.pageX) + "px")     
-                   .style("top", (d3.event.pageY - 28) + "px");   
+                   .style("top", (d3.event.pagseY - 28) + "px");   
                    */ 
             })                 
             .on("mouseout", function(d) {       
