@@ -31,7 +31,7 @@ quarter-1 quarter-2 quarter-3 ... quarter-n
 	nation: {
 		"name": "United States of America",
 		"population": 321418820,
-		"years": [
+		"years": {
 			2015: [
 				"Q1": {
 					"converted": {
@@ -49,19 +49,966 @@ quarter-1 quarter-2 quarter-3 ... quarter-n
 					"current econ rank": ,
 					"previous econ rank": ,
 				}
-			]
-		]
-
-		},
-
-		"quarters": [
-			"2015"
-		]
-	}
-
-		"2015-"
-	]
+			}
 }
 
+
+{
+	nation: {
+
+	},
+	states: [ 
+		{
+			"state" : "Alabama",
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 738432,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "72,057",
+						"Percent Diff": "32.09%",
+						"Actual Diff": "17,507"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Arizona',
+			"population" : 6828065,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,945",
+						"Percent Diff": "-23.11%",
+						"Actual Diff": "-12,605"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Arkansas',
+			"population" : 2978204,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "40,577",
+						"Percent Diff": "-25.61%",
+						"Actual Diff": "-13,973"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'California',
+			"population" : 39144818,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "61,396",
+						"Percent Diff": "12.55%",
+						"Actual Diff": "6,846"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Colorado',
+			"population" : 5456574,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "56890",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+		{
+			"state" : 'Alaska',
+			"population" : 4858979,
+			"2015" : {
+				"converted": [
+					{	
+						"quarter": "Q1",
+						"Per Capita GDP": "41,673",
+						"Percent Diff": "-23.61%",
+						"Actual Diff": "-12,878"
+					}
+				],
+				"raw": [
+					{
+
+					}
+				],	
+			}
+		},
+	]
+}
 
 
