@@ -1,0 +1,3260 @@
+{
+  "nation": {
+    "2015": {
+      "raw": [
+        {
+          "quater": "Q1",
+          "Per capita GDP": 54550
+        },
+        {
+          "quater": "Q2",
+          "Per capita GDP": 55371
+        },
+        {
+          "quarter": "Q3",
+          "Per capita GDP": 55825
+        },
+        {
+          "quarter": "Q4",
+          "Per capita GDP": 56149
+        }
+      ],
+      "converted": [
+        {
+          "quater": "Q1",
+          "Per capita GDP": "$54,550"
+        },
+        {
+          "quater": "Q2",
+          "Per capita GDP": "$55,371"
+        },
+        {
+          "quarter": "Q3",
+          "Per capita GDP": "$55,825"
+        },
+        {
+          "quarter": "Q4",
+          "Per capita GDP": "$56,149"
+        }
+      ]
+    },
+    "2016": {
+      "raw": [
+        {
+          "quater": "Q1",
+          "Per capita GDP": 56350
+        }
+      ],
+      "converted": [
+        {
+          "quater": "Q1",
+          "Per capita GDP": "$56,350"
+        }
+      ]
+    },
+    "state": "United States",
+    "Population": 321418820
+  },
+  "states": [
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 41673,
+            "% Diff from nation": -0.2361,
+            "Actual Diff From nation": -12878
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 41741,
+            "% Diff from nation": -0.2462,
+            "Actual Diff From nation": -13630
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 42250,
+            "% Diff from nation": -0.2432,
+            "Actual Diff From nation": -13575
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 42466,
+            "% Diff from nation": -0.2437,
+            "Actual Diff From nation": -13683
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$41,673",
+            "% Diff from nation": "-23.61%",
+            "Actual Diff From nation": "-$12,878"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$41,741",
+            "% Diff from nation": "-24.62%",
+            "Actual Diff From nation": "-$13,630"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$42,250",
+            "% Diff from nation": "-24.32%",
+            "Actual Diff From nation": "-$13,575"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$42,466",
+            "% Diff from nation": "-24.37%",
+            "Actual Diff From nation": "-$13,683"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 207248,
+        "2016-Q1:Per capita GDP": 42653,
+        "2016-Q1:% Diff from nation": -0.2431,
+        "2016-Q1:Actual Diff From nation": -13697
+      },
+      "state": "Alabama",
+      "Population": 4858979
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 72057,
+            "% Diff from nation": 0.3209,
+            "Actual Diff From nation": 17507
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 73403,
+            "% Diff from nation": 0.3257,
+            "Actual Diff From nation": 18032
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 70750,
+            "% Diff from nation": 0.2674,
+            "Actual Diff From nation": 14925
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 69824,
+            "% Diff from nation": 0.2435,
+            "Actual Diff From nation": 13675
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$72,057",
+            "% Diff from nation": "32.09%",
+            "Actual Diff From nation": "$17,507"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$73,403",
+            "% Diff from nation": "32.57%",
+            "Actual Diff From nation": "$18,032"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$70,750",
+            "% Diff from nation": "26.74%",
+            "Actual Diff From nation": "$14,925"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$69,824",
+            "% Diff from nation": "24.35%",
+            "Actual Diff From nation": "$13,675"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 50592,
+        "2016-Q1:Per capita GDP": 68513,
+        "2016-Q1:% Diff from nation": 0.2158,
+        "2016-Q1:Actual Diff From nation": 12163
+      },
+      "state": "Alaska",
+      "Population": 738432
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 41945,
+            "% Diff from nation": -0.2311,
+            "Actual Diff From nation": -12605
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 42517,
+            "% Diff from nation": -0.2321,
+            "Actual Diff From nation": -12854
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 42681,
+            "% Diff from nation": -0.2354,
+            "Actual Diff From nation": -13144
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 43082,
+            "% Diff from nation": -0.2327,
+            "Actual Diff From nation": -13066
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$41,945",
+            "% Diff from nation": "-23.11%",
+            "Actual Diff From nation": "-$12,605"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$42,517",
+            "% Diff from nation": "-23.21%",
+            "Actual Diff From nation": "-$12,854"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$42,681",
+            "% Diff from nation": "-23.54%",
+            "Actual Diff From nation": "-$13,144"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$43,082",
+            "% Diff from nation": "-23.27%",
+            "Actual Diff From nation": "-$13,066"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 296555,
+        "2016-Q1:Per capita GDP": 43432,
+        "2016-Q1:% Diff from nation": -0.2292,
+        "2016-Q1:Actual Diff From nation": -12918
+      },
+      "state": "Arizona",
+      "Population": 6828065
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 40577,
+            "% Diff from nation": -0.2561,
+            "Actual Diff From nation": -13973
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 41239,
+            "% Diff from nation": -0.2552,
+            "Actual Diff From nation": -14133
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 41760,
+            "% Diff from nation": -0.2519,
+            "Actual Diff From nation": -14065
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 41902,
+            "% Diff from nation": -0.2537,
+            "Actual Diff From nation": -14247
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$40,577",
+            "% Diff from nation": "-25.61%",
+            "Actual Diff From nation": "-$13,973"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$41,239",
+            "% Diff from nation": "-25.52%",
+            "Actual Diff From nation": "-$14,133"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$41,760",
+            "% Diff from nation": "-25.19%",
+            "Actual Diff From nation": "-$14,065"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$41,902",
+            "% Diff from nation": "-25.37%",
+            "Actual Diff From nation": "-$14,247"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 125759,
+        "2016-Q1:Per capita GDP": 42226,
+        "2016-Q1:% Diff from nation": -0.2506,
+        "2016-Q1:Actual Diff From nation": -14123
+      },
+      "state": "Arkansas",
+      "Population": 2978204
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 61396,
+            "% Diff from nation": 0.1255,
+            "Actual Diff From nation": 6846
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 62837,
+            "% Diff from nation": 0.1348,
+            "Actual Diff From nation": 7466
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 63210,
+            "% Diff from nation": 0.1323,
+            "Actual Diff From nation": 7385
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 63781,
+            "% Diff from nation": 0.1359,
+            "Actual Diff From nation": 7633
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$61,396",
+            "% Diff from nation": "12.55%",
+            "Actual Diff From nation": "$6,846"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$62,837",
+            "% Diff from nation": "13.48%",
+            "Actual Diff From nation": "$7,466"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$63,210",
+            "% Diff from nation": "13.23%",
+            "Actual Diff From nation": "$7,385"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$63,781",
+            "% Diff from nation": "13.59%",
+            "Actual Diff From nation": "$7,633"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 2513807,
+        "2016-Q1:Per capita GDP": 64218,
+        "2016-Q1:% Diff from nation": 0.1396,
+        "2016-Q1:Actual Diff From nation": 7868
+      },
+      "state": "California",
+      "Population": 39144818
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 56890,
+            "% Diff from nation": 0.0429,
+            "Actual Diff From nation": 2340
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 57790,
+            "% Diff from nation": 0.0437,
+            "Actual Diff From nation": 2419
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 57848,
+            "% Diff from nation": 0.0362,
+            "Actual Diff From nation": 2023
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 58296,
+            "% Diff from nation": 0.0382,
+            "Actual Diff From nation": 2147
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$56,890",
+            "% Diff from nation": "04.29%",
+            "Actual Diff From nation": "$2,340"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$57,790",
+            "% Diff from nation": "04.37%",
+            "Actual Diff From nation": "$2,419"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$57,848",
+            "% Diff from nation": "03.62%",
+            "Actual Diff From nation": "$2,023"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$58,296",
+            "% Diff from nation": "03.82%",
+            "Actual Diff From nation": "$2,147"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 320176,
+        "2016-Q1:Per capita GDP": 58677,
+        "2016-Q1:% Diff from nation": 0.0413,
+        "2016-Q1:Actual Diff From nation": 2327
+      },
+      "state": "Colorado",
+      "Population": 5456574
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 71093,
+            "% Diff from nation": 0.3033,
+            "Actual Diff From nation": 16543
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 72342,
+            "% Diff from nation": 0.3065,
+            "Actual Diff From nation": 16971
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 71967,
+            "% Diff from nation": 0.2892,
+            "Actual Diff From nation": 16142
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 72585,
+            "% Diff from nation": 0.2927,
+            "Actual Diff From nation": 16436
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$71,093",
+            "% Diff from nation": "30.33%",
+            "Actual Diff From nation": "$16,543"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$72,342",
+            "% Diff from nation": "30.65%",
+            "Actual Diff From nation": "$16,971"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$71,967",
+            "% Diff from nation": "28.92%",
+            "Actual Diff From nation": "$16,142"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$72,585",
+            "% Diff from nation": "29.27%",
+            "Actual Diff From nation": "$16,436"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 262240,
+        "2016-Q1:Per capita GDP": 73029,
+        "2016-Q1:% Diff from nation": 0.296,
+        "2016-Q1:Actual Diff From nation": 16680
+      },
+      "state": "Connecticut",
+      "Population": 3590886
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 70836,
+            "% Diff from nation": 0.2985,
+            "Actual Diff From nation": 16286
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 72359,
+            "% Diff from nation": 0.3068,
+            "Actual Diff From nation": 16988
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 72155,
+            "% Diff from nation": 0.2925,
+            "Actual Diff From nation": 16330
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 72496,
+            "% Diff from nation": 0.2911,
+            "Actual Diff From nation": 16347
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$70,836",
+            "% Diff from nation": "29.85%",
+            "Actual Diff From nation": "$16,286"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$72,359",
+            "% Diff from nation": "30.68%",
+            "Actual Diff From nation": "$16,988"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$72,155",
+            "% Diff from nation": "29.25%",
+            "Actual Diff From nation": "$16,330"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$72,496",
+            "% Diff from nation": "29.11%",
+            "Actual Diff From nation": "$16,347"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 69105,
+        "2016-Q1:Per capita GDP": 73055,
+        "2016-Q1:% Diff from nation": 0.2965,
+        "2016-Q1:Actual Diff From nation": 16705
+      },
+      "state": "Delaware",
+      "Population": 945934
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 42561,
+            "% Diff from nation": -0.2198,
+            "Actual Diff From nation": -11989
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 43138,
+            "% Diff from nation": -0.2209,
+            "Actual Diff From nation": -12233
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 43991,
+            "% Diff from nation": -0.212,
+            "Actual Diff From nation": -11834
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 44506,
+            "% Diff from nation": -0.2073,
+            "Actual Diff From nation": -11642
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$42,561",
+            "% Diff from nation": "-21.98%",
+            "Actual Diff From nation": "-$11,989"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$43,138",
+            "% Diff from nation": "-22.09%",
+            "Actual Diff From nation": "-$12,233"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$43,991",
+            "% Diff from nation": "-21.2%",
+            "Actual Diff From nation": "-$11,834"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$44,506",
+            "% Diff from nation": "-20.73%",
+            "Actual Diff From nation": "-$11,642"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 911025,
+        "2016-Q1:Per capita GDP": 44942,
+        "2016-Q1:% Diff from nation": -0.2025,
+        "2016-Q1:Actual Diff From nation": -11408
+      },
+      "state": "Florida",
+      "Population": 20271272
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 47500,
+            "% Diff from nation": -0.1292,
+            "Actual Diff From nation": -7050
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 48169,
+            "% Diff from nation": -0.1301,
+            "Actual Diff From nation": -7202
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 48994,
+            "% Diff from nation": -0.1224,
+            "Actual Diff From nation": -6831
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 49457,
+            "% Diff from nation": -0.1192,
+            "Actual Diff From nation": -6692
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$47,500",
+            "% Diff from nation": "-12.92%",
+            "Actual Diff From nation": "-$7,050"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$48,169",
+            "% Diff from nation": "-13.01%",
+            "Actual Diff From nation": "-$7,202"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$48,994",
+            "% Diff from nation": "-12.24%",
+            "Actual Diff From nation": "-$6,831"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$49,457",
+            "% Diff from nation": "-11.92%",
+            "Actual Diff From nation": "-$6,692"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 508372,
+        "2016-Q1:Per capita GDP": 49768,
+        "2016-Q1:% Diff from nation": -0.1168,
+        "2016-Q1:Actual Diff From nation": -6582
+      },
+      "state": "Georgia",
+      "Population": 10214860
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 54978,
+            "% Diff from nation": 0.0078,
+            "Actual Diff From nation": 427
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 55575,
+            "% Diff from nation": 0.0037,
+            "Actual Diff From nation": 204
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 55849,
+            "% Diff from nation": 0.0004,
+            "Actual Diff From nation": 24
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 56413,
+            "% Diff from nation": 0.0047,
+            "Actual Diff From nation": 264
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$54,978",
+            "% Diff from nation": "00.78%",
+            "Actual Diff From nation": "$,427"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$55,575",
+            "% Diff from nation": "00.37%",
+            "Actual Diff From nation": "$,204"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$55,849",
+            "% Diff from nation": "00.04%",
+            "Actual Diff From nation": ",$24"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$56,413",
+            "% Diff from nation": "00.47%",
+            "Actual Diff From nation": "$,264"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 81595,
+        "2016-Q1:Per capita GDP": 56996,
+        "2016-Q1:% Diff from nation": 0.0115,
+        "2016-Q1:Actual Diff From nation": 646
+      },
+      "state": "Hawaii",
+      "Population": 1431603
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 38822,
+            "% Diff from nation": -0.2883,
+            "Actual Diff From nation": -15728
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 39203,
+            "% Diff from nation": -0.292,
+            "Actual Diff From nation": -16168
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 39735,
+            "% Diff from nation": -0.2882,
+            "Actual Diff From nation": -16090
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 39930,
+            "% Diff from nation": -0.2889,
+            "Actual Diff From nation": -16219
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$38,822",
+            "% Diff from nation": "-28.83%",
+            "Actual Diff From nation": "-$15,728"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$39,203",
+            "% Diff from nation": "-29.2%",
+            "Actual Diff From nation": "-$16,168"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$39,735",
+            "% Diff from nation": "-28.82%",
+            "Actual Diff From nation": "-$16,090"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$39,930",
+            "% Diff from nation": "-28.89%",
+            "Actual Diff From nation": "-$16,219"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 65915,
+        "2016-Q1:Per capita GDP": 39829,
+        "2016-Q1:% Diff from nation": -0.2932,
+        "2016-Q1:Actual Diff From nation": -16520
+      },
+      "state": "Idaho",
+      "Population": 1654930
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 59615,
+            "% Diff from nation": 0.0928,
+            "Actual Diff From nation": 5064
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 59619,
+            "% Diff from nation": 0.0767,
+            "Actual Diff From nation": 4248
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 60830,
+            "% Diff from nation": 0.0897,
+            "Actual Diff From nation": 5005
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 60996,
+            "% Diff from nation": 0.0863,
+            "Actual Diff From nation": 4848
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$59,615",
+            "% Diff from nation": "09.28%",
+            "Actual Diff From nation": "$5,064"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$59,619",
+            "% Diff from nation": "07.67%",
+            "Actual Diff From nation": "$4,248"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$60,830",
+            "% Diff from nation": "08.97%",
+            "Actual Diff From nation": "$5,005"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$60,996",
+            "% Diff from nation": "08.63%",
+            "Actual Diff From nation": "$4,848"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 784365,
+        "2016-Q1:Per capita GDP": 60993,
+        "2016-Q1:% Diff from nation": 0.0824,
+        "2016-Q1:Actual Diff From nation": 4643
+      },
+      "state": "Illinois",
+      "Population": 12859995
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 49748,
+            "% Diff from nation": -0.088,
+            "Actual Diff From nation": -4802
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 50816,
+            "% Diff from nation": -0.0823,
+            "Actual Diff From nation": -4555
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 51171,
+            "% Diff from nation": -0.0834,
+            "Actual Diff From nation": -4654
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 51543,
+            "% Diff from nation": -0.082,
+            "Actual Diff From nation": -4605
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$49,748",
+            "% Diff from nation": "-08.8%",
+            "Actual Diff From nation": "-$4,802"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$50,816",
+            "% Diff from nation": "-08.23%",
+            "Actual Diff From nation": "-$4,555"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$51,171",
+            "% Diff from nation": "-08.34%",
+            "Actual Diff From nation": "-$4,654"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$51,543",
+            "% Diff from nation": "-08.2%",
+            "Actual Diff From nation": "-$4,605"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 341092,
+        "2016-Q1:Per capita GDP": 51527,
+        "2016-Q1:% Diff from nation": -0.0856,
+        "2016-Q1:Actual Diff From nation": -4823
+      },
+      "state": "Indiana",
+      "Population": 6619680
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 54723,
+            "% Diff from nation": 0.0032,
+            "Actual Diff From nation": 173
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 55817,
+            "% Diff from nation": 0.0081,
+            "Actual Diff From nation": 446
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 56435,
+            "% Diff from nation": 0.0109,
+            "Actual Diff From nation": 610
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 55957,
+            "% Diff from nation": -0.0034,
+            "Actual Diff From nation": -192
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$54,723",
+            "% Diff from nation": "00.32%",
+            "Actual Diff From nation": "$,173"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$55,817",
+            "% Diff from nation": "00.81%",
+            "Actual Diff From nation": "$,446"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$56,435",
+            "% Diff from nation": "01.09%",
+            "Actual Diff From nation": "$,610"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$55,957",
+            "% Diff from nation": "-00.34%",
+            "Actual Diff From nation": "-$,192"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 173444,
+        "2016-Q1:Per capita GDP": 55522,
+        "2016-Q1:% Diff from nation": -0.0147,
+        "2016-Q1:Actual Diff From nation": -828
+      },
+      "state": "Iowa",
+      "Population": 3123899
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 50422,
+            "% Diff from nation": -0.0757,
+            "Actual Diff From nation": -4128
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 50955,
+            "% Diff from nation": -0.0798,
+            "Actual Diff From nation": -4416
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 50849,
+            "% Diff from nation": -0.0891,
+            "Actual Diff From nation": -4976
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 50773,
+            "% Diff from nation": -0.0957,
+            "Actual Diff From nation": -5376
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$50,422",
+            "% Diff from nation": "-07.57%",
+            "Actual Diff From nation": "-$4,128"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$50,955",
+            "% Diff from nation": "-07.98%",
+            "Actual Diff From nation": "-$4,416"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$50,849",
+            "% Diff from nation": "-08.91%",
+            "Actual Diff From nation": "-$4,976"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$50,773",
+            "% Diff from nation": "-09.57%",
+            "Actual Diff From nation": "-$5,376"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 148473,
+        "2016-Q1:Per capita GDP": 50993,
+        "2016-Q1:% Diff from nation": -0.0951,
+        "2016-Q1:Actual Diff From nation": -5357
+      },
+      "state": "Kansas",
+      "Population": 2911641
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 43011,
+            "% Diff from nation": -0.2115,
+            "Actual Diff From nation": -11539
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 43967,
+            "% Diff from nation": -0.206,
+            "Actual Diff From nation": -11404
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 44307,
+            "% Diff from nation": -0.2063,
+            "Actual Diff From nation": -11518
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 44660,
+            "% Diff from nation": -0.2046,
+            "Actual Diff From nation": -11489
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$43,011",
+            "% Diff from nation": "-21.15%",
+            "Actual Diff From nation": "-$11,539"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$43,967",
+            "% Diff from nation": "-20.6%",
+            "Actual Diff From nation": "-$11,404"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$44,307",
+            "% Diff from nation": "-20.63%",
+            "Actual Diff From nation": "-$11,518"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$44,660",
+            "% Diff from nation": "-20.46%",
+            "Actual Diff From nation": "-$11,489"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 197649,
+        "2016-Q1:Per capita GDP": 44666,
+        "2016-Q1:% Diff from nation": -0.2074,
+        "2016-Q1:Actual Diff From nation": -11684
+      },
+      "state": "Kentucky",
+      "Population": 4425092
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 52155,
+            "% Diff from nation": -0.0439,
+            "Actual Diff From nation": -2395
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 52193,
+            "% Diff from nation": -0.0574,
+            "Actual Diff From nation": -3178
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 52172,
+            "% Diff from nation": -0.0654,
+            "Actual Diff From nation": -3653
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 51857,
+            "% Diff from nation": -0.0764,
+            "Actual Diff From nation": -4292
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$52,155",
+            "% Diff from nation": "-04.39%",
+            "Actual Diff From nation": "-$2,395"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$52,193",
+            "% Diff from nation": "-05.74%",
+            "Actual Diff From nation": "-$3,178"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$52,172",
+            "% Diff from nation": "-06.54%",
+            "Actual Diff From nation": "-$3,653"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$51,857",
+            "% Diff from nation": "-07.64%",
+            "Actual Diff From nation": "-$4,292"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 240028,
+        "2016-Q1:Per capita GDP": 51390,
+        "2016-Q1:% Diff from nation": -0.088,
+        "2016-Q1:Actual Diff From nation": -4960
+      },
+      "state": "Louisiana",
+      "Population": 4670724
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 41389,
+            "% Diff from nation": -0.2413,
+            "Actual Diff From nation": -13162
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 42543,
+            "% Diff from nation": -0.2317,
+            "Actual Diff From nation": -12828
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 43032,
+            "% Diff from nation": -0.2292,
+            "Actual Diff From nation": -12793
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 43346,
+            "% Diff from nation": -0.228,
+            "Actual Diff From nation": -12803
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$41,389",
+            "% Diff from nation": "-24.13%",
+            "Actual Diff From nation": "-$13,162"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$42,543",
+            "% Diff from nation": "-23.17%",
+            "Actual Diff From nation": "-$12,828"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$43,032",
+            "% Diff from nation": "-22.92%",
+            "Actual Diff From nation": "-$12,793"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$43,346",
+            "% Diff from nation": "-22.8%",
+            "Actual Diff From nation": "-$12,803"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 58125,
+        "2016-Q1:Per capita GDP": 43725,
+        "2016-Q1:% Diff from nation": -0.224,
+        "2016-Q1:Actual Diff From nation": -12625
+      },
+      "state": "Maine",
+      "Population": 1329328
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 59850,
+            "% Diff from nation": 0.0972,
+            "Actual Diff From nation": 5300
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 60460,
+            "% Diff from nation": 0.0919,
+            "Actual Diff From nation": 5088
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 60661,
+            "% Diff from nation": 0.0866,
+            "Actual Diff From nation": 4836
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 61335,
+            "% Diff from nation": 0.0924,
+            "Actual Diff From nation": 5186
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$59,850",
+            "% Diff from nation": "09.72%",
+            "Actual Diff From nation": "$5,300"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$60,460",
+            "% Diff from nation": "09.19%",
+            "Actual Diff From nation": "$5,088"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$60,661",
+            "% Diff from nation": "08.66%",
+            "Actual Diff From nation": "$4,836"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$61,335",
+            "% Diff from nation": "09.24%",
+            "Actual Diff From nation": "$5,186"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 371899,
+        "2016-Q1:Per capita GDP": 61917,
+        "2016-Q1:% Diff from nation": 0.0988,
+        "2016-Q1:Actual Diff From nation": 5567
+      },
+      "state": "Maryland",
+      "Population": 6006401
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 69245,
+            "% Diff from nation": 0.2694,
+            "Actual Diff From nation": 14694
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 70419,
+            "% Diff from nation": 0.2718,
+            "Actual Diff From nation": 15048
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 70118,
+            "% Diff from nation": 0.256,
+            "Actual Diff From nation": 14293
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 70886,
+            "% Diff from nation": 0.2625,
+            "Actual Diff From nation": 14737
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$69,245",
+            "% Diff from nation": "26.94%",
+            "Actual Diff From nation": "$14,694"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$70,419",
+            "% Diff from nation": "27.18%",
+            "Actual Diff From nation": "$15,048"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$70,118",
+            "% Diff from nation": "25.6%",
+            "Actual Diff From nation": "$14,293"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$70,886",
+            "% Diff from nation": "26.25%",
+            "Actual Diff From nation": "$14,737"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 485474,
+        "2016-Q1:Per capita GDP": 71452,
+        "2016-Q1:% Diff from nation": 0.268,
+        "2016-Q1:Actual Diff From nation": 15102
+      },
+      "state": "Massachusetts",
+      "Population": 6794422
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 45999,
+            "% Diff from nation": -0.1568,
+            "Actual Diff From nation": -8551
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 46878,
+            "% Diff from nation": -0.1534,
+            "Actual Diff From nation": -8493
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 47354,
+            "% Diff from nation": -0.1517,
+            "Actual Diff From nation": -8471
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 47840,
+            "% Diff from nation": -0.148,
+            "Actual Diff From nation": -8309
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$45,999",
+            "% Diff from nation": "-15.68%",
+            "Actual Diff From nation": "-$8,551"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$46,878",
+            "% Diff from nation": "-15.34%",
+            "Actual Diff From nation": "-$8,493"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$47,354",
+            "% Diff from nation": "-15.17%",
+            "Actual Diff From nation": "-$8,471"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$47,840",
+            "% Diff from nation": "-14.8%",
+            "Actual Diff From nation": "-$8,309"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 478773,
+        "2016-Q1:Per capita GDP": 48251,
+        "2016-Q1:% Diff from nation": -0.1437,
+        "2016-Q1:Actual Diff From nation": -8099
+      },
+      "state": "Michigan",
+      "Population": 9922576
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 60243,
+            "% Diff from nation": 0.1044,
+            "Actual Diff From nation": 5692
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 60495,
+            "% Diff from nation": 0.0925,
+            "Actual Diff From nation": 5124
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 60853,
+            "% Diff from nation": 0.0901,
+            "Actual Diff From nation": 5028
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 61244,
+            "% Diff from nation": 0.0908,
+            "Actual Diff From nation": 5096
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$60,243",
+            "% Diff from nation": "10.44%",
+            "Actual Diff From nation": "$5,692"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$60,495",
+            "% Diff from nation": "09.25%",
+            "Actual Diff From nation": "$5,124"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$60,853",
+            "% Diff from nation": "09.01%",
+            "Actual Diff From nation": "$5,028"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$61,244",
+            "% Diff from nation": "09.08%",
+            "Actual Diff From nation": "$5,096"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 336729,
+        "2016-Q1:Per capita GDP": 61340,
+        "2016-Q1:% Diff from nation": 0.0886,
+        "2016-Q1:Actual Diff From nation": 4990
+      },
+      "state": "Minnesota",
+      "Population": 5489594
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 35252,
+            "% Diff from nation": -0.3538,
+            "Actual Diff From nation": -19298
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 35626,
+            "% Diff from nation": -0.3566,
+            "Actual Diff From nation": -19745
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 36051,
+            "% Diff from nation": -0.3542,
+            "Actual Diff From nation": -19774
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 36237,
+            "% Diff from nation": -0.3546,
+            "Actual Diff From nation": -19912
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$35,252",
+            "% Diff from nation": "-35.38%",
+            "Actual Diff From nation": "-$19,298"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$35,626",
+            "% Diff from nation": "-35.66%",
+            "Actual Diff From nation": "-$19,745"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$36,051",
+            "% Diff from nation": "-35.42%",
+            "Actual Diff From nation": "-$19,774"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$36,237",
+            "% Diff from nation": "-35.46%",
+            "Actual Diff From nation": "-$19,912"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 108971,
+        "2016-Q1:Per capita GDP": 36417,
+        "2016-Q1:% Diff from nation": -0.3537,
+        "2016-Q1:Actual Diff From nation": -19933
+      },
+      "state": "Mississippi",
+      "Population": 2992333
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 47320,
+            "% Diff from nation": -0.1325,
+            "Actual Diff From nation": -7230
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 48189,
+            "% Diff from nation": -0.1297,
+            "Actual Diff From nation": -7183
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 48524,
+            "% Diff from nation": -0.1308,
+            "Actual Diff From nation": -7301
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 48862,
+            "% Diff from nation": -0.1298,
+            "Actual Diff From nation": -7286
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$47,320",
+            "% Diff from nation": "-13.25%",
+            "Actual Diff From nation": "-$7,230"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$48,189",
+            "% Diff from nation": "-12.97%",
+            "Actual Diff From nation": "-$7,183"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$48,524",
+            "% Diff from nation": "-13.08%",
+            "Actual Diff From nation": "-$7,301"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$48,862",
+            "% Diff from nation": "-12.98%",
+            "Actual Diff From nation": "-$7,286"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 298158,
+        "2016-Q1:Per capita GDP": 49010,
+        "2016-Q1:% Diff from nation": -0.1303,
+        "2016-Q1:Actual Diff From nation": -7340
+      },
+      "state": "Missouri",
+      "Population": 6083672
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 43700,
+            "% Diff from nation": -0.1989,
+            "Actual Diff From nation": -10850
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 44677,
+            "% Diff from nation": -0.1931,
+            "Actual Diff From nation": -10694
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 44858,
+            "% Diff from nation": -0.1965,
+            "Actual Diff From nation": -10967
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 44637,
+            "% Diff from nation": -0.205,
+            "Actual Diff From nation": -11512
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$43,700",
+            "% Diff from nation": "-19.89%",
+            "Actual Diff From nation": "-$10,850"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$44,677",
+            "% Diff from nation": "-19.31%",
+            "Actual Diff From nation": "-$10,694"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$44,858",
+            "% Diff from nation": "-19.65%",
+            "Actual Diff From nation": "-$10,967"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$44,637",
+            "% Diff from nation": "-20.5%",
+            "Actual Diff From nation": "-$11,512"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 45786,
+        "2016-Q1:Per capita GDP": 44326,
+        "2016-Q1:% Diff from nation": -0.2134,
+        "2016-Q1:Actual Diff From nation": -12024
+      },
+      "state": "Montana",
+      "Population": 1032949
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 58913,
+            "% Diff from nation": 0.08,
+            "Actual Diff From nation": 4363
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 60223,
+            "% Diff from nation": 0.0876,
+            "Actual Diff From nation": 4852
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 60727,
+            "% Diff from nation": 0.0878,
+            "Actual Diff From nation": 4902
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 60615,
+            "% Diff from nation": 0.0795,
+            "Actual Diff From nation": 4466
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$58,913",
+            "% Diff from nation": "08.%",
+            "Actual Diff From nation": "$4,363"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$60,223",
+            "% Diff from nation": "08.76%",
+            "Actual Diff From nation": "$4,852"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$60,727",
+            "% Diff from nation": "08.78%",
+            "Actual Diff From nation": "$4,902"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$60,615",
+            "% Diff from nation": "07.95%",
+            "Actual Diff From nation": "$4,466"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 114327,
+        "2016-Q1:Per capita GDP": 60293,
+        "2016-Q1:% Diff from nation": 0.07,
+        "2016-Q1:Actual Diff From nation": 3943
+      },
+      "state": "Nebraska",
+      "Population": 1896190
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 47530,
+            "% Diff from nation": -0.1287,
+            "Actual Diff From nation": -7020
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 48811,
+            "% Diff from nation": -0.1185,
+            "Actual Diff From nation": -6560
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 49470,
+            "% Diff from nation": -0.1138,
+            "Actual Diff From nation": -6355
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 49677,
+            "% Diff from nation": -0.1153,
+            "Actual Diff From nation": -6472
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$47,530",
+            "% Diff from nation": "-12.87%",
+            "Actual Diff From nation": "-$7,020"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$48,811",
+            "% Diff from nation": "-11.85%",
+            "Actual Diff From nation": "-$6,560"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$49,470",
+            "% Diff from nation": "-11.38%",
+            "Actual Diff From nation": "-$6,355"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$49,677",
+            "% Diff from nation": "-11.53%",
+            "Actual Diff From nation": "-$6,472"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 143995,
+        "2016-Q1:Per capita GDP": 49811,
+        "2016-Q1:% Diff from nation": -0.116,
+        "2016-Q1:Actual Diff From nation": -6539
+      },
+      "state": "Nevada",
+      "Population": 2890845
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 53040,
+            "% Diff from nation": -0.0277,
+            "Actual Diff From nation": -1510
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 54128,
+            "% Diff from nation": -0.0225,
+            "Actual Diff From nation": -1243
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 55293,
+            "% Diff from nation": -0.0095,
+            "Actual Diff From nation": -532
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 55705,
+            "% Diff from nation": -0.0079,
+            "Actual Diff From nation": -444
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$53,040",
+            "% Diff from nation": "-02.77%",
+            "Actual Diff From nation": "-$1,510"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$54,128",
+            "% Diff from nation": "-02.25%",
+            "Actual Diff From nation": "-$1,243"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$55,293",
+            "% Diff from nation": "-00.95%",
+            "Actual Diff From nation": "-$,532"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$55,705",
+            "% Diff from nation": "-00.79%",
+            "Actual Diff From nation": "-$,444"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 74936,
+        "2016-Q1:Per capita GDP": 56317,
+        "2016-Q1:% Diff from nation": -0.0006,
+        "2016-Q1:Actual Diff From nation": -33
+      },
+      "state": "New Hampshire",
+      "Population": 1330608
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 61950,
+            "% Diff from nation": 0.1356,
+            "Actual Diff From nation": 7400
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 63506,
+            "% Diff from nation": 0.1469,
+            "Actual Diff From nation": 8135
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 63796,
+            "% Diff from nation": 0.1428,
+            "Actual Diff From nation": 7971
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 64445,
+            "% Diff from nation": 0.1478,
+            "Actual Diff From nation": 8296
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$61,950",
+            "% Diff from nation": "13.56%",
+            "Actual Diff From nation": "$7,400"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$63,506",
+            "% Diff from nation": "14.69%",
+            "Actual Diff From nation": "$8,135"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$63,796",
+            "% Diff from nation": "14.28%",
+            "Actual Diff From nation": "$7,971"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$64,445",
+            "% Diff from nation": "14.78%",
+            "Actual Diff From nation": "$8,296"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 580377,
+        "2016-Q1:Per capita GDP": 64789,
+        "2016-Q1:% Diff from nation": 0.1498,
+        "2016-Q1:Actual Diff From nation": 8439
+      },
+      "state": "New Jersey",
+      "Population": 8958013
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 43996,
+            "% Diff from nation": -0.1935,
+            "Actual Diff From nation": -10554
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 44552,
+            "% Diff from nation": -0.1954,
+            "Actual Diff From nation": -10819
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 44334,
+            "% Diff from nation": -0.2058,
+            "Actual Diff From nation": -11491
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 44051,
+            "% Diff from nation": -0.2155,
+            "Actual Diff From nation": -12098
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$43,996",
+            "% Diff from nation": "-19.35%",
+            "Actual Diff From nation": "-$10,554"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$44,552",
+            "% Diff from nation": "-19.54%",
+            "Actual Diff From nation": "-$10,819"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$44,334",
+            "% Diff from nation": "-20.58%",
+            "Actual Diff From nation": "-$11,491"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$44,051",
+            "% Diff from nation": "-21.55%",
+            "Actual Diff From nation": "-$12,098"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 90978,
+        "2016-Q1:Per capita GDP": 43632,
+        "2016-Q1:% Diff from nation": -0.2257,
+        "2016-Q1:Actual Diff From nation": -12717
+      },
+      "state": "New Mexico",
+      "Population": 2085109
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 70746,
+            "% Diff from nation": 0.2969,
+            "Actual Diff From nation": 16196
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 72583,
+            "% Diff from nation": 0.3108,
+            "Actual Diff From nation": 17211
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 73766,
+            "% Diff from nation": 0.3214,
+            "Actual Diff From nation": 17941
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 74079,
+            "% Diff from nation": 0.3193,
+            "Actual Diff From nation": 17930
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$70,746",
+            "% Diff from nation": "29.69%",
+            "Actual Diff From nation": "$16,196"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$72,583",
+            "% Diff from nation": "31.08%",
+            "Actual Diff From nation": "$17,211"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$73,766",
+            "% Diff from nation": "32.14%",
+            "Actual Diff From nation": "$17,941"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$74,079",
+            "% Diff from nation": "31.93%",
+            "Actual Diff From nation": "$17,930"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 1474493,
+        "2016-Q1:Per capita GDP": 74485,
+        "2016-Q1:% Diff from nation": 0.3218,
+        "2016-Q1:Actual Diff From nation": 18135
+      },
+      "state": "New York",
+      "Population": 19795791
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 48509,
+            "% Diff from nation": -0.1107,
+            "Actual Diff From nation": -6041
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 49511,
+            "% Diff from nation": -0.1058,
+            "Actual Diff From nation": -5861
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 50301,
+            "% Diff from nation": -0.099,
+            "Actual Diff From nation": -5524
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 50607,
+            "% Diff from nation": -0.0987,
+            "Actual Diff From nation": -5541
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$48,509",
+            "% Diff from nation": "-11.07%",
+            "Actual Diff From nation": "-$6,041"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$49,511",
+            "% Diff from nation": "-10.58%",
+            "Actual Diff From nation": "-$5,861"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$50,301",
+            "% Diff from nation": "-09.9%",
+            "Actual Diff From nation": "-$5,524"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$50,607",
+            "% Diff from nation": "-09.87%",
+            "Actual Diff From nation": "-$5,541"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 510248,
+        "2016-Q1:Per capita GDP": 50807,
+        "2016-Q1:% Diff from nation": -0.0984,
+        "2016-Q1:Actual Diff From nation": -5542
+      },
+      "state": "North Carolina",
+      "Population": 10042802
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 74329,
+            "% Diff from nation": 0.3626,
+            "Actual Diff From nation": 19779
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 72722,
+            "% Diff from nation": 0.3133,
+            "Actual Diff From nation": 17350
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 71478,
+            "% Diff from nation": 0.2804,
+            "Actual Diff From nation": 15654
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 71220,
+            "% Diff from nation": 0.2684,
+            "Actual Diff From nation": 15071
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$74,329",
+            "% Diff from nation": "36.26%",
+            "Actual Diff From nation": "$19,779"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$72,722",
+            "% Diff from nation": "31.33%",
+            "Actual Diff From nation": "$17,350"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$71,478",
+            "% Diff from nation": "28.04%",
+            "Actual Diff From nation": "$15,654"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$71,220",
+            "% Diff from nation": "26.84%",
+            "Actual Diff From nation": "$15,071"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 51503,
+        "2016-Q1:Per capita GDP": 68042,
+        "2016-Q1:% Diff from nation": 0.2075,
+        "2016-Q1:Actual Diff From nation": 11692
+      },
+      "state": "North Dakota",
+      "Population": 756927
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 51524,
+            "% Diff from nation": -0.0555,
+            "Actual Diff From nation": -3026
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 52219,
+            "% Diff from nation": -0.0569,
+            "Actual Diff From nation": -3152
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 52630,
+            "% Diff from nation": -0.0572,
+            "Actual Diff From nation": -3195
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 53077,
+            "% Diff from nation": -0.0547,
+            "Actual Diff From nation": -3072
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$51,524",
+            "% Diff from nation": "-05.55%",
+            "Actual Diff From nation": "-$3,026"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$52,219",
+            "% Diff from nation": "-05.69%",
+            "Actual Diff From nation": "-$3,152"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$52,630",
+            "% Diff from nation": "-05.72%",
+            "Actual Diff From nation": "-$3,195"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$53,077",
+            "% Diff from nation": "-05.47%",
+            "Actual Diff From nation": "-$3,072"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 618982,
+        "2016-Q1:Per capita GDP": 53299,
+        "2016-Q1:% Diff from nation": -0.0541,
+        "2016-Q1:Actual Diff From nation": -3051
+      },
+      "state": "Ohio",
+      "Population": 11613423
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 47064,
+            "% Diff from nation": -0.1372,
+            "Actual Diff From nation": -7486
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 46397,
+            "% Diff from nation": -0.1621,
+            "Actual Diff From nation": -8974
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 45844,
+            "% Diff from nation": -0.1788,
+            "Actual Diff From nation": -9981
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 45210,
+            "% Diff from nation": -0.1948,
+            "Actual Diff From nation": -10938
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$47,064",
+            "% Diff from nation": "-13.72%",
+            "Actual Diff From nation": "-$7,486"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$46,397",
+            "% Diff from nation": "-16.21%",
+            "Actual Diff From nation": "-$8,974"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$45,844",
+            "% Diff from nation": "-17.88%",
+            "Actual Diff From nation": "-$9,981"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$45,210",
+            "% Diff from nation": "-19.48%",
+            "Actual Diff From nation": "-$10,938"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 174776,
+        "2016-Q1:Per capita GDP": 44684,
+        "2016-Q1:% Diff from nation": -0.207,
+        "2016-Q1:Actual Diff From nation": -11665
+      },
+      "state": "Oklahoma",
+      "Population": 3911338
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 52424,
+            "% Diff from nation": -0.039,
+            "Actual Diff From nation": -2126
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 52962,
+            "% Diff from nation": -0.0435,
+            "Actual Diff From nation": -2410
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 54112,
+            "% Diff from nation": -0.0307,
+            "Actual Diff From nation": -1713
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 54284,
+            "% Diff from nation": -0.0332,
+            "Actual Diff From nation": -1864
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$52,424",
+            "% Diff from nation": "-03.9%",
+            "Actual Diff From nation": "-$2,126"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$52,962",
+            "% Diff from nation": "-04.35%",
+            "Actual Diff From nation": "-$2,410"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$54,112",
+            "% Diff from nation": "-03.07%",
+            "Actual Diff From nation": "-$1,713"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$54,284",
+            "% Diff from nation": "-03.32%",
+            "Actual Diff From nation": "-$1,864"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 221308,
+        "2016-Q1:Per capita GDP": 54929,
+        "2016-Q1:% Diff from nation": -0.0252,
+        "2016-Q1:Actual Diff From nation": -1421
+      },
+      "state": "Oregon",
+      "Population": 4028977
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 53292,
+            "% Diff from nation": -0.0231,
+            "Actual Diff From nation": -1258
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 53628,
+            "% Diff from nation": -0.0315,
+            "Actual Diff From nation": -1744
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 54049,
+            "% Diff from nation": -0.0318,
+            "Actual Diff From nation": -1776
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 54356,
+            "% Diff from nation": -0.0319,
+            "Actual Diff From nation": -1793
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$53,292",
+            "% Diff from nation": "-02.31%",
+            "Actual Diff From nation": "-$1,258"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$53,628",
+            "% Diff from nation": "-03.15%",
+            "Actual Diff From nation": "-$1,744"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$54,049",
+            "% Diff from nation": "-03.18%",
+            "Actual Diff From nation": "-$1,776"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$54,356",
+            "% Diff from nation": "-03.19%",
+            "Actual Diff From nation": "-$1,793"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 698517,
+        "2016-Q1:Per capita GDP": 54561,
+        "2016-Q1:% Diff from nation": -0.0317,
+        "2016-Q1:Actual Diff From nation": -1789
+      },
+      "state": "Pennsylvania",
+      "Population": 12802503
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 53033,
+            "% Diff from nation": -0.0278,
+            "Actual Diff From nation": -1517
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 53997,
+            "% Diff from nation": -0.0248,
+            "Actual Diff From nation": -1374
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 54265,
+            "% Diff from nation": -0.0279,
+            "Actual Diff From nation": -1560
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 54739,
+            "% Diff from nation": -0.0251,
+            "Actual Diff From nation": -1410
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$53,033",
+            "% Diff from nation": "-02.78%",
+            "Actual Diff From nation": "-$1,517"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$53,997",
+            "% Diff from nation": "-02.48%",
+            "Actual Diff From nation": "-$1,374"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$54,265",
+            "% Diff from nation": "-02.79%",
+            "Actual Diff From nation": "-$1,560"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$54,739",
+            "% Diff from nation": "-02.51%",
+            "Actual Diff From nation": "-$1,410"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 58295,
+        "2016-Q1:Per capita GDP": 55188,
+        "2016-Q1:% Diff from nation": -0.0206,
+        "2016-Q1:Actual Diff From nation": -1162
+      },
+      "state": "Rhode Island",
+      "Population": 1056298
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 39738,
+            "% Diff from nation": -0.2715,
+            "Actual Diff From nation": -14812
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 40266,
+            "% Diff from nation": -0.2728,
+            "Actual Diff From nation": -15105
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 41026,
+            "% Diff from nation": -0.2651,
+            "Actual Diff From nation": -14799
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 41313,
+            "% Diff from nation": -0.2642,
+            "Actual Diff From nation": -14836
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$39,738",
+            "% Diff from nation": "-27.15%",
+            "Actual Diff From nation": "-$14,812"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$40,266",
+            "% Diff from nation": "-27.28%",
+            "Actual Diff From nation": "-$15,105"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$41,026",
+            "% Diff from nation": "-26.51%",
+            "Actual Diff From nation": "-$14,799"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$41,313",
+            "% Diff from nation": "-26.42%",
+            "Actual Diff From nation": "-$14,836"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 203631,
+        "2016-Q1:Per capita GDP": 41590,
+        "2016-Q1:% Diff from nation": -0.2619,
+        "2016-Q1:Actual Diff From nation": -14760
+      },
+      "state": "South Carolina",
+      "Population": 4896146
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 52679,
+            "% Diff from nation": -0.0343,
+            "Actual Diff From nation": -1871
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 54056,
+            "% Diff from nation": -0.0238,
+            "Actual Diff From nation": -1316
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 55255,
+            "% Diff from nation": -0.0102,
+            "Actual Diff From nation": -570
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 55484,
+            "% Diff from nation": -0.0118,
+            "Actual Diff From nation": -665
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$52,679",
+            "% Diff from nation": "-3.43%",
+            "Actual Diff From nation": "-$1,871"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$54,056",
+            "% Diff from nation": "-2.38%",
+            "Actual Diff From nation": "-$1,316"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$55,255",
+            "% Diff from nation": "-1.02%",
+            "Actual Diff From nation": "-$570"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$55,484",
+            "% Diff from nation": "-01.18%",
+            "Actual Diff From nation": "-$665"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 47216,
+        "2016-Q1:Per capita GDP": 55000,
+        "2016-Q1:% Diff from nation": -0.0239,
+        "2016-Q1:Actual Diff From nation": -1349
+      },
+      "state": "South Dakota",
+      "Population": 858469
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 46201,
+            "% Diff from nation": -0.1531,
+            "Actual Diff From nation": -8349
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 47465,
+            "% Diff from nation": -0.1428,
+            "Actual Diff From nation": -7906
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 48142,
+            "% Diff from nation": -0.1376,
+            "Actual Diff From nation": -7683
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 48603,
+            "% Diff from nation": -0.1344,
+            "Actual Diff From nation": -7546
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$46,201",
+            "% Diff from nation": "-15.31%",
+            "Actual Diff From nation": "-$8,349"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$47,465",
+            "% Diff from nation": "-14.28%",
+            "Actual Diff From nation": "-$7,906"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$48,142",
+            "% Diff from nation": "-13.76%",
+            "Actual Diff From nation": "-$7,683"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$48,603",
+            "% Diff from nation": "-13.44%",
+            "Actual Diff From nation": "-$7,546"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 322944,
+        "2016-Q1:Per capita GDP": 48929,
+        "2016-Q1:% Diff from nation": -0.1317,
+        "2016-Q1:Actual Diff From nation": -7421
+      },
+      "state": "Tennessee",
+      "Population": 6600299
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 57925,
+            "% Diff from nation": 0.0619,
+            "Actual Diff From nation": 3375
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 57892,
+            "% Diff from nation": 0.0455,
+            "Actual Diff From nation": 2521
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 57659,
+            "% Diff from nation": 0.0329,
+            "Actual Diff From nation": 1834
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 57542,
+            "% Diff from nation": 0.0248,
+            "Actual Diff From nation": 1394
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$57,925",
+            "% Diff from nation": "6.19%",
+            "Actual Diff From nation": "$3,375"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$57,892",
+            "% Diff from nation": "4.55%",
+            "Actual Diff From nation": "$2,521"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$57,659",
+            "% Diff from nation": "3.29%",
+            "Actual Diff From nation": "$1,834"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$57,542",
+            "% Diff from nation": "2.48%",
+            "Actual Diff From nation": "$1,394"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 1568247,
+        "2016-Q1:Per capita GDP": 57091,
+        "2016-Q1:% Diff from nation": 0.0132,
+        "2016-Q1:Actual Diff From nation": 742
+      },
+      "state": "Texas",
+      "Population": 27469114
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 48052,
+            "% Diff from nation": -0.1191,
+            "Actual Diff From nation": -6498
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 48915,
+            "% Diff from nation": -0.1166,
+            "Actual Diff From nation": -6457
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 49495,
+            "% Diff from nation": -0.1134,
+            "Actual Diff From nation": -6330
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 49949,
+            "% Diff from nation": -0.1104,
+            "Actual Diff From nation": -6200
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$48,052",
+            "% Diff from nation": "-11.91%",
+            "Actual Diff From nation": "-$6,498"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$48,915",
+            "% Diff from nation": "-11.66%",
+            "Actual Diff From nation": "-$6,457"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$49,495",
+            "% Diff from nation": "-11.34%",
+            "Actual Diff From nation": "-$6,330"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$49,949",
+            "% Diff from nation": "-11.04%",
+            "Actual Diff From nation": "-$6,200"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 150621,
+        "2016-Q1:Per capita GDP": 50275,
+        "2016-Q1:% Diff from nation": -0.1078,
+        "2016-Q1:Actual Diff From nation": -6074
+      },
+      "state": "Utah",
+      "Population": 2995919
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 47655,
+            "% Diff from nation": -0.1264,
+            "Actual Diff From nation": -6895
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 47949,
+            "% Diff from nation": -0.134,
+            "Actual Diff From nation": -7422
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 49139,
+            "% Diff from nation": -0.1198,
+            "Actual Diff From nation": -6686
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 49498,
+            "% Diff from nation": -0.1184,
+            "Actual Diff From nation": -6651
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$47,655",
+            "% Diff from nation": "-12.64%",
+            "Actual Diff From nation": "-$6,895"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$47,949",
+            "% Diff from nation": "-13.4%",
+            "Actual Diff From nation": "-$7,422"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$49,139",
+            "% Diff from nation": "-11.98%",
+            "Actual Diff From nation": "-$6,686"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$49,498",
+            "% Diff from nation": "-11.84%",
+            "Actual Diff From nation": "-$6,651"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 31171,
+        "2016-Q1:Per capita GDP": 49791,
+        "2016-Q1:% Diff from nation": -0.1164,
+        "2016-Q1:Actual Diff From nation": -6559
+      },
+      "state": "Vermont",
+      "Population": 626042
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 55875,
+            "% Diff from nation": 0.0243,
+            "Actual Diff From nation": 1325
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 56960,
+            "% Diff from nation": 0.0287,
+            "Actual Diff From nation": 1589
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 57777,
+            "% Diff from nation": 0.035,
+            "Actual Diff From nation": 1952
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 58332,
+            "% Diff from nation": 0.0389,
+            "Actual Diff From nation": 2183
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$55,875",
+            "% Diff from nation": "02.43%",
+            "Actual Diff From nation": "$1,325"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$56,960",
+            "% Diff from nation": "02.87%",
+            "Actual Diff From nation": "$1,589"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$57,777",
+            "% Diff from nation": "03.5%",
+            "Actual Diff From nation": "$1,952"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$58,332",
+            "% Diff from nation": "03.89%",
+            "Actual Diff From nation": "$2,183"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 492761,
+        "2016-Q1:Per capita GDP": 58781,
+        "2016-Q1:% Diff from nation": 0.0431,
+        "2016-Q1:Actual Diff From nation": 2431
+      },
+      "state": "Virginia",
+      "Population": 8382993
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 60389,
+            "% Diff from nation": 0.107,
+            "Actual Diff From nation": 5839
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 61829,
+            "% Diff from nation": 0.1166,
+            "Actual Diff From nation": 6458
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 62443,
+            "% Diff from nation": 0.1186,
+            "Actual Diff From nation": 6618
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 62839,
+            "% Diff from nation": 0.1191,
+            "Actual Diff From nation": 6690
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$60,389",
+            "% Diff from nation": "10.7%",
+            "Actual Diff From nation": "$5,839"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$61,829",
+            "% Diff from nation": "11.66%",
+            "Actual Diff From nation": "$6,458"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$62,443",
+            "% Diff from nation": "11.86%",
+            "Actual Diff From nation": "$6,618"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$62,839",
+            "% Diff from nation": "11.91%",
+            "Actual Diff From nation": "$6,690"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 455943,
+        "2016-Q1:Per capita GDP": 63587,
+        "2016-Q1:% Diff from nation": 0.1284,
+        "2016-Q1:Actual Diff From nation": 7238
+      },
+      "state": "Washington",
+      "Population": 7170351
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 39816,
+            "% Diff from nation": -0.2701,
+            "Actual Diff From nation": -14734
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 40214,
+            "% Diff from nation": -0.2737,
+            "Actual Diff From nation": -15158
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 40056,
+            "% Diff from nation": -0.2825,
+            "Actual Diff From nation": -15769
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 39863,
+            "% Diff from nation": -0.2901,
+            "Actual Diff From nation": -16286
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$39,816",
+            "% Diff from nation": "-27.01%",
+            "Actual Diff From nation": "-$14,734"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$40,214",
+            "% Diff from nation": "-27.37%",
+            "Actual Diff From nation": "-$15,158"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$40,056",
+            "% Diff from nation": "-28.25%",
+            "Actual Diff From nation": "-$15,769"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$39,863",
+            "% Diff from nation": "-29.01%",
+            "Actual Diff From nation": "-$16,286"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 71992,
+        "2016-Q1:Per capita GDP": 39039,
+        "2016-Q1:% Diff from nation": -0.3072,
+        "2016-Q1:Actual Diff From nation": -17311
+      },
+      "state": "West Virginia",
+      "Population": 1844128
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 51816,
+            "% Diff from nation": -0.0501,
+            "Actual Diff From nation": -2734
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 52645,
+            "% Diff from nation": -0.0492,
+            "Actual Diff From nation": -2726
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 53657,
+            "% Diff from nation": -0.0388,
+            "Actual Diff From nation": -2167
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 53822,
+            "% Diff from nation": -0.0414,
+            "Actual Diff From nation": -2327
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$51,816",
+            "% Diff from nation": "-05.01%",
+            "Actual Diff From nation": "-$2,734"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$52,645",
+            "% Diff from nation": "-04.92%",
+            "Actual Diff From nation": "-$2,726"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$53,657",
+            "% Diff from nation": "-03.88%",
+            "Actual Diff From nation": "-$2,167"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$53,822",
+            "% Diff from nation": "-04.14%",
+            "Actual Diff From nation": "-$2,327"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 311191,
+        "2016-Q1:Per capita GDP": 53920,
+        "2016-Q1:% Diff from nation": -0.0431,
+        "2016-Q1:Actual Diff From nation": -2430
+      },
+      "state": "Wisconsin",
+      "Population": 5771337
+    },
+    {
+      "2015": {
+        "raw": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": 66181,
+            "% Diff from nation": 0.2132,
+            "Actual Diff From nation": 11631
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": 67157,
+            "% Diff from nation": 0.2128,
+            "Actual Diff From nation": 11785
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": 65889,
+            "% Diff from nation": 0.1803,
+            "Actual Diff From nation": 10064
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": 64369,
+            "% Diff from nation": 0.1464,
+            "Actual Diff From nation": 8220
+          }
+        ],
+        "converted": [
+          {
+            "quater": "Q1",
+            "Per capita GDP": "$66,181",
+            "% Diff from nation": "21.32%",
+            "Actual Diff From nation": "$11,631"
+          },
+          {
+            "quater": "Q2",
+            "Per capita GDP": "$67,157",
+            "% Diff from nation": "21.28%",
+            "Actual Diff From nation": "$11,785"
+          },
+          {
+            "quarter": "Q3",
+            "Per capita GDP": "$65,889",
+            "% Diff from nation": "18.03",
+            "Actual Diff From nation": "$10,064"
+          },
+          {
+            "quarter": "Q4",
+            "Per capita GDP": "$64,369",
+            "% Diff from nation": "14.64",
+            "Actual Diff From nation": "$8,220"
+          }
+        ]
+      },
+      "2016": {
+        "2016-Q1:GDP": 36219,
+        "2016-Q1:Per capita GDP": 61796,
+        "2016-Q1:% Diff from nation": 0.0966,
+        "2016-Q1:Actual Diff From nation": 5446
+      },
+      "state": "Wyoming",
+      "Population": 586107
+    }
+  ]
+}
