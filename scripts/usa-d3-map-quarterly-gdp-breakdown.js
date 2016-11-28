@@ -23,13 +23,13 @@ var color = d3.scale.linear()
 
 var legendText = ["Above", "Average", "Below", "Nada"];
 
-
+/*
 var mapTitle = d3.select('#usa-map')
                 .append('h2')
                 .attr("class", "state-of-union-map-title")
                 .text('State of the Union');
+*/
 
-                    
 
 //Create SVG element and append map to the SVG
 var svg = d3.select("#usa-map")
@@ -191,32 +191,37 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
     color.domain([min2015q1, 0, max2015q1]);
 
     
-  // nationalPerCapita.text('national per capita: ' + GDPbreakdowns.nation["2015-Q1"]);
+    nationalPerCapita.text('national per capita: ' + GDPbreakdowns.nation["2015"]["converted"][0]["Per capita GDP"]);
 
 
     // Load GeoJSON data and merge with states data
-    /*
+    
     d3.json("../data/us-states.json", function(usamap) {
 
         let stateName = '',
-            stateDiff = 0;
+            stateRawDif = 0,
+            stateConvertedDiff = '';
 
         let q1GDP2015 = GDPbreakdowns.states.map(state => ({
-            gdpDif: state["2015-Q1"],
-            state: state.state
+            gdpRawDif: state["2015"]["raw"][0]["Actual Diff From nation"],
+            gdpConvertedDif: state["2015"]["converted"][0]["Actual Diff From nation"],
+            gdpConvertedPercentDiff: state["2015"]["converted"][0]["Actual Diff From nation"],
+            state: state.state;
         }));
 
         function filterByPropertiesName(obj) {
             if (obj.properties.name === stateName) {
-                obj.properties.diff = stateDiff;
+                obj.properties.rawDiff = stateRawDiff;
+                obj.properties.convertedDiff =  stateConvertedDiff;
             }
         }
 
 
         for (let a = 0; a < q1GDP2015.length; a++) {
+            
+            stateRawDiff = q1GDP2015[a]['gdpRawDif'];
+            stateConvertedDiff = q1GDP2015[a]['gdpConvertedDif'];
             stateName = q1GDP2015[a]['state'];
-            stateDiff = q1GDP2015[a]['gdpDif'];
-
             usamap.features.filter(filterByPropertiesName);
         }
 
@@ -233,7 +238,7 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
             .style("fill", function(d) {
 
                 // Get data value
-                var value = d.properties["diff"];
+                var value = d.properties["rawDiff"];
 
                 if (value) {
                     //If value exists…
@@ -251,7 +256,10 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
                 tooltip.transition()        
                    .duration(200)      
                    .style("opacity", .9);      
-                   tooltip.text(d.properties["diff"])
+                   tooltip.text(
+                        "state: " + d.properties["name"] +
+                        "Diff from Nation: " + d.properties["convertedDiff"]
+                        )
                    .attr('style', 'left:' + (mouse[0] + 15) +
                                 'px; top:' + (mouse[1] - 35) + 'px');
                  
@@ -296,6 +304,5 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
             }
         );
     });
-    */
 
 });
