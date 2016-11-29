@@ -198,29 +198,35 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
     
     d3.json("../data/us-states.json", function(usamap) {
 
-        let stateName = '',
+        let stateName = "",
+        	stateConvertedGDP = ""
             stateRawDif = 0,
-            stateConvertedDiff = '';
+            stateConvertedDiff = "",
+            stateConvertedPercentDiff = "";
 
         let q1GDP2015 = GDPbreakdowns.states.map(state => ({
+        	gdpConvertedBreakdown: state["2015"]["converted"][0]["Per capita GDP"],
             gdpRawDif: state["2015"]["raw"][0]["Actual Diff From nation"],
             gdpConvertedDif: state["2015"]["converted"][0]["Actual Diff From nation"],
-            gdpConvertedPercentDiff: state["2015"]["converted"][0]["Actual Diff From nation"],
-            state: state.state;
+            gdpConvertedPercentDiff: state["2015"]["converted"][0]["% Diff from nation"],
+            state: state.state
         }));
 
         function filterByPropertiesName(obj) {
             if (obj.properties.name === stateName) {
+            	obj.properties.breakdown = stateConvertedGDP;
                 obj.properties.rawDiff = stateRawDiff;
                 obj.properties.convertedDiff =  stateConvertedDiff;
+                obj.properties.convertedPercent =  stateConvertedPercentDiff;
             }
         }
 
 
         for (let a = 0; a < q1GDP2015.length; a++) {
-            
+            stateConvertedGDP = q1GDP2015[a]['gdpConvertedBreakdown'];
             stateRawDiff = q1GDP2015[a]['gdpRawDif'];
             stateConvertedDiff = q1GDP2015[a]['gdpConvertedDif'];
+            stateConvertedPercentDiff = q1GDP2015[a]['gdpConvertedPercentDiff'];            
             stateName = q1GDP2015[a]['state'];
             usamap.features.filter(filterByPropertiesName);
         }
@@ -255,14 +261,17 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
                 });     
                 tooltip.transition()        
                    .duration(200)      
-                   .style("opacity", .9);      
-                   tooltip.text(
-                        "state: " + d.properties["name"] +
-                        "Diff from Nation: " + d.properties["convertedDiff"]
-                        )
-                   .attr('style', 'left:' + (mouse[0] + 15) +
-                                'px; top:' + (mouse[1] - 35) + 'px');
+                   .style("opacity", .9);
                  
+                  tooltip.text(
+                  	"State: " + d.properties["name"] + 
+                  	"State GDP Per Capita: " +  d.properties["breakdown"] +
+                  	"Difference from National: " + d.properties["convertedDiff"] +
+                  	"Percent Difference: " + d.properties["convertedPercent"]
+                  	);
+
+                  	tooltip.attr('style', 'left:' + (mouse[0] + 15) +
+                                'px; top:' + (mouse[1] - 35) + 'px'); 
                    // .style("left", (d3.event.pageX) + "px")     
                    // .style("top", (d3.event.pagseY - 28) + "px");   
                   
