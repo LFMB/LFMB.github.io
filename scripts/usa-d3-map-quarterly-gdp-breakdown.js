@@ -21,7 +21,7 @@ var path = d3.geo.path().projection(projection);
 var color = d3.scale.linear()
     .range(["rgb(255,0,0)", "rgb(255,255,255)", "rgb(0,128,0)"]);
 
-var legendText = ["Above", "Average", "Below", "Nada"];
+var legendText = ["Above", "Close", "Below", "Nada"];
 
 /*
 var mapTitle = d3.select('#usa-map')
@@ -33,7 +33,7 @@ var mapTitle = d3.select('#usa-map')
 /*
 TODO: enter catergories array into tooltip while showing state's stats
 */
-var toolTipCatergories = ["State", "State GDP Per Capita", "Difference from National", "Percent Difference" ];
+var toolTipCatergories = ["State", "State GDP Per Capita", "Diff. from Nation", "Percent Diff." ];
 
 //Create SVG element and append map to the SVG
 var svg = d3.select("#usa-map")
@@ -43,8 +43,10 @@ var svg = d3.select("#usa-map")
 
 // Append Div for tooltip to SVG
 var tooltip = d3.select("#usa-map")
-    .append("div")
-    .attr("class", "tooltip")
+    .append("svg")
+    .attr("class", "tooltip-svg")
+    .attr("width", 250)
+    .attr("height", 100)
     .style("opacity", 0);
 
 
@@ -122,18 +124,15 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
             .style("stroke", "#000")
             .style("stroke-width", "1")
             .style("fill", function(d) {
-
                 // Get data value
                 var value = d.properties["rawDiff"];
-
                 if (value) {
                     //If value exists…
                     return color(value);
                 } else {
                     //If value is undefined…
                    return "rgb(213,222,217)";
-                }
-               
+                }              
             })
             .on("mouseover", function(d) { 
                 var mouse = d3.mouse(svg.node()).map(function(d) {
@@ -142,15 +141,26 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
                 tooltip.transition()        
                    .duration(200)      
                    .style("opacity", .9);
-                 
 
+                /*
+                TODO: set up data structure to dynamically call state's stats
+
+                tooltip.append("text")
+                       .attr("x", 2)
+                       .attr("y", 9)
+                       .text(function(d) {
+                          return d + " : ";
+                       });
+                */
+                 /*
+                
                   tooltip.text(
                   	"State: " + d.properties["name"] + " " +
                   	"State GDP Per Capita: " +  d.properties["breakdown"] + " " +
                   	"Difference from National: " + d.properties["convertedDiff"] + " " +
                   	"Percent Difference: " + d.properties["convertedPercent"]
                   	);
-
+                    */
                   	tooltip.attr('style', 'left:' + (mouse[0] + 15) +
                                 'px; top:' + (mouse[1] - 35) + 'px'); 
                    // .style("left", (d3.event.pageX) + "px")     
@@ -164,8 +174,19 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
             }
         );
 
-                    
-         
+        tooltip.selectAll("g")
+                .data(toolTipCatergories) 
+                .enter()
+                .append('g')
+                .attr("transform", function(d,i) {
+                    return "translate(0," + i * 20 + ")"; 
+                })
+                .append("text")
+                .attr("x", 2)
+                .attr("y", 9)
+                .text(function(d) {
+                    return d + " : ";
+                });
         var legend = d3.select("#usa-map").append("svg")
             .attr("class", "legend")
             .attr("width", 100)
