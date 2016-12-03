@@ -1,15 +1,17 @@
 
 var containerWidth = document.querySelector('.usa-map-container').clientWidth,
     height = 500,
-    width;
+    width  = containerWidth;
 
 
 // window.data = {};
+/*
 if(containerWidth > 840){
     width = containerWidth;
 } else {
-    width = 960;
+    // width = 960;
 }
+*/
 
 var projection = d3.geo.albersUsa()
     .translate([width / 2, height / 2])
@@ -23,25 +25,15 @@ var color = d3.scale.linear()
 
 var legendText = ["Above", "Close", "Below", "Nada"];
 
-/*
-var mapTitle = d3.select('#usa-map')
-                .append('h2')
-                .attr("class", "state-of-union-map-title")
-                .text('State of the Union');
-*/
-
-/*
-TODO: enter catergories array into tooltip while showing state's stats
-*/
-var toolTipCatergories = ["State", "State GDP Per Capita", "Diff. from Nation", "Percent Diff." ];
 
 //Create SVG element and append map to the SVG
-var svg = d3.select("#usa-map")
+var usaMap = d3.select("#usa-map")
     .append("svg")
     .attr("width", width)
     .attr("height", height);
 
 // Append Div for tooltip to SVG
+
 var tooltip = d3.select("#usa-map")
     .append("svg")
     .attr("class", "tooltip-svg")
@@ -96,10 +88,12 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
 
         function filterByPropertiesName(obj) {
             if (obj.properties.name === stateName) {
-            	obj.properties.breakdown = stateConvertedGDP;
+            	obj.convertedInfo = [];
                 obj.properties.rawDiff = stateRawDiff;
-                obj.properties.convertedDiff =  stateConvertedDiff;
-                obj.properties.convertedPercent =  stateConvertedPercentDiff;
+                obj.convertedInfo[0] =  "State: " + stateName;
+                obj.convertedInfo[1] = "GDP Per Capita: " + stateConvertedGDP;
+                obj.convertedInfo[2] = "Diff. from Nation: " + stateConvertedDiff;
+                obj.convertedInfo[3] = "Percent Diff.: " + stateConvertedPercentDiff;
             }
         }
 
@@ -116,7 +110,7 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
         
 
         // Bind the data to the SVG and create one path per GeoJSON feature
-        svg.selectAll("path")
+        usaMap.selectAll("path")
             .data(usamap.features)
             .enter()
             .append("path")
@@ -134,24 +128,36 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
                    return "rgb(213,222,217)";
                 }              
             })
-            .on("mouseover", function(d) { 
-                var mouse = d3.mouse(svg.node()).map(function(d) {
+            .on("mouseover", function(d) {
+                var mouse = d3.mouse(usaMap.node()).map(function(d) {
                     return parseInt(d);
-                });     
+                }); 
+
+              	tooltip.selectAll('g')
+              			.data(d.convertedInfo)
+              			.enter()
+              			.append('g')
+              			.attr("transform", function(d,i) {
+				            return "translate(0," + i * 20 + ")"; 
+				        })
+				        .append("text")
+				        .attr("x", 2)
+				        .attr("y", 9)
+				        .text(function(d) {
+				            return d;
+				        });
+				tooltip.selectAll('text')
+						.data(d.convertedInfo)
+						.text(function(d) {
+				            return d;
+				        });
+                
                 tooltip.transition()        
                    .duration(200)      
                    .style("opacity", .9);
+             
 
-                /*
-                TODO: set up data structure to dynamically call state's stats
 
-                tooltip.append("text")
-                       .attr("x", 2)
-                       .attr("y", 9)
-                       .text(function(d) {
-                          return d + " : ";
-                       });
-                */
                  /*
                 
                   tooltip.text(
@@ -160,33 +166,24 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
                   	"Difference from National: " + d.properties["convertedDiff"] + " " +
                   	"Percent Difference: " + d.properties["convertedPercent"]
                   	);
-                    */
+                     */
                   	tooltip.attr('style', 'left:' + (mouse[0] + 15) +
                                 'px; top:' + (mouse[1] - 35) + 'px'); 
+                    
                    // .style("left", (d3.event.pageX) + "px")     
                    // .style("top", (d3.event.pagseY - 28) + "px");   
                   
-            })                 
-            .on("mouseout", function(d) {       
+            })           
+            .on("mouseout", function(d) {    
                 tooltip.transition()        
                    .duration(500)      
-                   .style("opacity", 0);   
+                   .style("opacity", 0);
+
+                tooltip.selectAll('g')
+                	   .data(d.convertedInfo)
+                	   .exit();
             }
         );
-
-        tooltip.selectAll("g")
-                .data(toolTipCatergories) 
-                .enter()
-                .append('g')
-                .attr("transform", function(d,i) {
-                    return "translate(0," + i * 20 + ")"; 
-                })
-                .append("text")
-                .attr("x", 2)
-                .attr("y", 9)
-                .text(function(d) {
-                    return d + " : ";
-                });
         var legend = d3.select("#usa-map").append("svg")
             .attr("class", "legend")
             .attr("width", 100)
