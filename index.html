@@ -4,7 +4,7 @@ title: Home
 order: 1
 permalink: /
 ---
-<!-- <script src="https://openfin.github.io/fin-hypergrid/build/fin-hypergrid.js"></script> 
+<!-- 
 <script src="http://d3js.org/d3.v3.min.js"></script>
 -->
 <div class="home">
@@ -17,11 +17,6 @@ permalink: /
             <i class="fa fa-2x fa-angle-down"></i>
         </div>
     </section>
-    <!-- hypergrid chart - it's just too vertical to be useful
-    <section class="state-of-union">
-        <div id="state-of-union-grid"></div>
-    </section>
-    -->
     <section class="usa-map-container text-center">
         <h2 class="state-of-union-map-title">State of the Union</h2>
         <p class="state-of-union-blurb"><span class="state-union-time-period">2015 Q1</span> Per Capita Breakdown of Grand Domestic Product (GDP) by state compared to national average</p>
@@ -30,19 +25,19 @@ permalink: /
         <div class="quarter-selector-container">
             <ul class="list-unstyled quarter-selector-options">
                 <li class="btn quarter-selector active">
-                    <apan id="2015-Q1">2015 Q1</span>
+                    <span data-year="2015" data-quarter="0" id="2015-Q1">2015 Q1</span>
                 </li>
                 <li class="btn quarter-selector">
-                    <span id="2015-Q2">2015 Q2</span>
+                    <span  data-year="2015" data-quarter="1" id="2015-Q2">2015 Q2</span>
                 </li>
                 <li class="btn quarter-selector">
-                    <span id="2015-Q3">2015 Q3</span>
+                    <span data-year="2015" data-quarter="2" id="2015-Q3">2015 Q3</span>
                 </li>
                 <li class="btn quarter-selector">
-                    <span id="2015-Q4">2015 Q4</span>
+                    <span data-year="2015" data-quarter="3" id="2015-Q4">2015 Q4</span>
                 </li>
                 <li class="btn quarter-selector">
-                    <span id="2016-Q1">2016 Q1</span>
+                    <span data-year="2016" data-quarter="0" id="2016-Q1">2016 Q1</span>
                 </li>
             </ul>   
         </div>
@@ -51,5 +46,4 @@ permalink: /
         </p>
     </section>
 </div>
-<!-- <script type="text/javascript" src="scripts/basic-2015-q1-d3-usamap.js"></script> -->
 <script type="text/javascript" src="scripts/usa-d3-map-quarterly-gdp-breakdown.js"></script>
