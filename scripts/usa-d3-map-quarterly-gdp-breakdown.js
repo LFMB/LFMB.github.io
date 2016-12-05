@@ -57,7 +57,7 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
     });
 
 
-    var legendText = [maxPerCapita, "Close", minPerCapita];
+    var legendText = [maxPerCapita, "0", minPerCapita];
 
     color.domain([minPerCapita, 0, maxPerCapita]);
 
@@ -69,6 +69,7 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
     
     d3.json("../data/us-states.json", function(geoData) {
 
+    	/*
         let stateName = "",
         	stateConvertedGDP = ""
             stateRawDif = 0,
@@ -82,6 +83,7 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
             gdpConvertedPercentDiff: state["2015"]["converted"][0]["% Diff from nation"],
             state: state.state
         }));
+        */
 
         function filterByPropertiesName(obj) {
             if (obj.properties.name === stateName) {
@@ -95,6 +97,22 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
         }
 
 
+        var stateName = "",
+        	stateConvertedGDP = ""
+            stateRawDif = 0,
+            stateConvertedDiff = "",
+            stateConvertedPercentDiff = "";
+
+        var q1GDP2015 = GDPbreakdowns.states.map(state => ({
+        	gdpConvertedBreakdown: state["2015"]["converted"][0]["Per capita GDP"],
+            gdpRawDif: state["2015"]["raw"][0]["Actual Diff From nation"],
+            gdpConvertedDif: state["2015"]["converted"][0]["Actual Diff From nation"],
+            gdpConvertedPercentDiff: state["2015"]["converted"][0]["% Diff from nation"],
+            state: state.state
+        }));
+
+
+        /*
         for (let a = 0; a < q1GDP2015.length; a++) {
             stateConvertedGDP = q1GDP2015[a]['gdpConvertedBreakdown'];
             stateRawDiff = q1GDP2015[a]['gdpRawDif'];
@@ -103,8 +121,16 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
             stateName = q1GDP2015[a]['state'];
             geoData.features.filter(filterByPropertiesName);
         }
+        */
 
-
+        for (var a = 0; a < q1GDP2015.length; a++) {
+            stateConvertedGDP = q1GDP2015[a]['gdpConvertedBreakdown'];
+            stateRawDiff = q1GDP2015[a]['gdpRawDif'];
+            stateConvertedDiff = q1GDP2015[a]['gdpConvertedDif'];
+            stateConvertedPercentDiff = q1GDP2015[a]['gdpConvertedPercentDiff'];            
+            stateName = q1GDP2015[a]['state'];
+            geoData.features.filter(filterByPropertiesName);
+        }
         
         // Bind the data to the SVG and create one path per GeoJSON feature
         usaMap.selectAll("path")
@@ -170,23 +196,33 @@ d3.json("../data/raw-and-converted-per-capita-gdp-data.json", function(GDPbreakd
         );
         var legend = d3.select("#usa-map").append("svg")
             .attr("class", "legend")
-            .attr("width", 100)
-            .attr("height", 80)
+            .attr("width", 180)
+            .attr("height", 80);
+
+        var legendHeader = d3.select('.legend')
+        	.append('text')
+        	.attr("x", 0)
+            .attr("y", 9)
+            .attr("dy", ".3em")
+            .attr("class", "legend-header")
+            .text('Diff from Nation in USD');
+
+        var legendOutPuts = d3.select('.legend')
             .selectAll("g")
             .data(color.domain().slice().reverse())
             .enter()
             .append("g")
             .attr("transform", function(d, i) {
-                return "translate(0," + i * 20 + ")";
+                return "translate(0," + (i  * 20 + 20) + ")";
             }
         );
 
-        legend.append("rect")
+        legendOutPuts.append("rect")
             .attr("width", 18)
             .attr("height", 18)
             .style("fill", color);
 
-        legend.append("text")
+        legendOutPuts.append("text")
             .data(legendText)
             .attr("x", 24)
             .attr("y", 9)
@@ -231,7 +267,7 @@ function buildStateOfUnion(year, quarter){
 	    // Load GeoJSON data and merge with states data
 	    
 	    d3.json("../data/us-states.json", function(geoData) {
-
+	    	/*
 	        let stateName = "",
 	        	stateConvertedGDP = ""
 	            stateRawDif = 0,
@@ -245,6 +281,22 @@ function buildStateOfUnion(year, quarter){
 	            gdpConvertedPercentDiff: state[year]["converted"][quarter]["% Diff from nation"],
 	            state: state.state
 	        }));
+			*/
+
+			var stateName = "",
+	        	stateConvertedGDP = ""
+	            stateRawDif = 0,
+	            stateConvertedDiff = "",
+	            stateConvertedPercentDiff = "";
+
+	        var selectedPeriod = GDPbreakdowns.states.map(state => ({
+	        	gdpConvertedBreakdown: state[year]["converted"][quarter]["Per capita GDP"],
+	            gdpRawDif: state[year]["raw"][quarter]["Actual Diff From nation"],
+	            gdpConvertedDif: state[year]["converted"][quarter]["Actual Diff From nation"],
+	            gdpConvertedPercentDiff: state[year]["converted"][quarter]["% Diff from nation"],
+	            state: state.state
+	        }));
+		
 
 	        function filterByPropertiesName(obj) {
 	            if (obj.properties.name === stateName) {
@@ -258,7 +310,19 @@ function buildStateOfUnion(year, quarter){
 	        }
 
 
+	        /*
 	        for (let a = 0; a < selectedPeriod.length; a++) {
+	            stateConvertedGDP = selectedPeriod[a]['gdpConvertedBreakdown'];
+	            stateRawDiff = selectedPeriod[a]['gdpRawDif'];
+	            stateConvertedDiff = selectedPeriod[a]['gdpConvertedDif'];
+	            stateConvertedPercentDiff = selectedPeriod[a]['gdpConvertedPercentDiff'];            
+	            stateName = selectedPeriod[a]['state'];
+	            geoData.features.filter(filterByPropertiesName);
+	        }
+	        */
+
+
+	        for (var a = 0; a < selectedPeriod.length; a++) {
 	            stateConvertedGDP = selectedPeriod[a]['gdpConvertedBreakdown'];
 	            stateRawDiff = selectedPeriod[a]['gdpRawDif'];
 	            stateConvertedDiff = selectedPeriod[a]['gdpConvertedDif'];
@@ -322,6 +386,46 @@ function buildStateOfUnion(year, quarter){
 
 		            }
 		        );
+		/*
+		var legend = d3.select("#usa-map").append("svg")
+            .attr("class", "legend")
+            .attr("width", 180)
+            .attr("height", 80);
+
+        var legendHeader = d3.select('.legend')
+        	.append('text')
+        	.attr("x", 0)
+            .attr("y", 9)
+            .attr("dy", ".3em")
+            .attr("class", "legend-header")
+            .text('Diff from Nation in USD');
+
+        var legendOutPuts = d3.select('.legend')
+            .selectAll("g")
+            .data(color.domain().slice().reverse())
+            .enter()
+            .append("g")
+            .attr("transform", function(d, i) {
+                return "translate(0," + (i  * 20 + 20) + ")";
+            }
+        );
+
+        legendOutPuts.append("rect")
+            .attr("width", 18)
+            .attr("height", 18)
+            .style("fill", color);
+
+        legendOutPuts.append("text")
+            .data(legendText)
+            .attr("x", 24)
+            .attr("y", 9)
+            .attr("dy", ".35em")
+            .text(function(d) {
+                return d;
+            }
+        );
+
+
 		           
 	        var legend = d3.select(".legend");
 
@@ -336,6 +440,7 @@ function buildStateOfUnion(year, quarter){
 	                return d;
 	            }
 	        );
+	       */
 	    });
 
 	});
