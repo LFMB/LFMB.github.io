@@ -1,3 +1,48 @@
+
+$primary-color-dark:   #00796B
+$primary-color:        #009688
+$primary-color-light:  #B2DFDB
+$primary-color-text:   #FFFFFF
+$accent-color:         #03A9F4
+$primary-text-color:   #212121
+$secondary-text-color: #757575
+$divider-color:        #BDBDBD
+
+
+$main-nav-background: $primary-color-dark;
+
+$nav-link: $primary-color-text;
+$nav-link-visited: $primary-color-text;
+$nav-link-hover: $primary-color-light;
+
+$splash-page-background: $primary-color;
+$splash-page-headline: $primary-color-text;
+$splash-page-blurb: $primary-color-text;
+$splash-page-scroll-icon: $primary-color-text;
+
+$article-header: $primary-text-color;
+$article-header-blub: $secondary-text-color;
+$article-background: $divider-color;
+$article-text:
+$article-link: $accent-color;
+$article-link-hover: $accent-color;
+
+/*
+
+will worry about buttons and map styling later
+    
+*/
+
+$footer-background: $primary-color-dark;
+$footer-column-header: $primary-color-text;
+$footer-column-text: $primary-color-text;
+$footer-column-link: $primary-color-text;
+$footer-column-link-hover: $primary-color-light;
+ 
+
+
+
+
 /**
  * Reset some basic elements
  */
@@ -15,8 +60,6 @@ dl, dd, ol, ul, figure {
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -90,19 +133,18 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-a {
-    color: $brand-color;
+ 
+ .nav-link {
+    color: $nav-link-color;
     text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
+     &:visited {
+        color: $nav-link-visited;
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $nav-link-hover;
     }
-}
+ }
 
 
 

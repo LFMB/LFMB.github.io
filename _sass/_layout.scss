@@ -5,26 +5,23 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background-color: #0ff;
-
+    background-color: #00796B;
     // Positioning context for the mobile navigation icon
     position: relative;
-
     .nav-link-color{
-        color: #000;
-        font-weight: bold;
-        &:hover{
-            color: #fff;
-        }
+        @extend .nav-link;
     }
 }
 
 .social-icon-link{
-    color: #000;
+    @extend .nav-link;
+    /*
+   color: #fff;
     font-weight: bold;
     &:hover{
-        color: #fff;
+        color: #B2DFDB;
     }
+    */
 }
 
 .site-title {
@@ -34,11 +31,6 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
 }
 
 .site-nav {
