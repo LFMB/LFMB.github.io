@@ -37,7 +37,7 @@ var nationalPerCapita = d3.select('#usa-map')
     .attr('class', 'quarterly-national-breakdown');
 
 
-$('.btn span').on('click', function(){
+$('.quarter-selector-options .mdl-button').on('click', function(){
 	var selectedQuarter = this.dataset.quarter,
 		selectedYear =  this.dataset.year;
 		buildStateOfUnion(selectedYear, selectedQuarter);

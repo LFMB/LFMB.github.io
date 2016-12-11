@@ -7,6 +7,8 @@
 	    color: #fff;
 	    display: block;
 	    height: 100vh;
+	   	width: 100%;
+    	float: left;
 	    .intro-text{
 			position: relative;
 			top: 50%;
@@ -32,7 +34,7 @@
 				font-size: 16px;
 			}
 		}
-		.arrow-bounce-down{
+		.arrow-down{
 			position: absolute;
 			width: 100%;
 			left: 0;
@@ -58,33 +60,30 @@
 		text-align: center;
 		padding: 40px 0 20px;
 		background: #dedede;
+		float: left;
 		#usa-map{
 			float: left;
 			width: 100%;
 			position: relative;
 			background: #dedede;
 		}
+		a {
+			color: $primary-color;
+        	&:hover {
+            	color: $primary-color-dark;
+            }
+        } 
 	}	
 }
 
-
-@-webkit-keyframes flip {
-  0% {
-    -webkit-transform: rotateX(0deg);
-  }
-  100% {
-    -webkit-transform: rotateX(360deg);
-  }
+.quarter-selector-options {
+    .mdl-button {
+        color: $primary-color;
+        &:hover {
+            color: $primary-color-dark;
+        }   
+    }
 }
-@keyframes flip {
-  0% {
-    transform: rotateX(0deg);
-  }
-  100% {
-    transform: rotateX(360deg);
-  }
-}
-
 
 
 /* On mouse hover, lighten state color */
