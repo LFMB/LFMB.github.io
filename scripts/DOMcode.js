@@ -59,3 +59,22 @@ if ( document.addEventListener ) {
     }
   });
 }
+
+
+/*
+
+need to work on the taglines animation
+
+var hiddenTagLines = [];
+
+hiddenTagLines = document.getElementsByClassName('hidden');
+
+function showSiteTagLine(tagLines){
+var tagLinesQueue = tagLines.length;
+for(var a = 0; a < tagLinesQueue; a++){
+setInterval( function(){
+     tagLines[a].removeClass('hidden').addClass('animated');
+ }, 1000);
+}
+};  
+*/
