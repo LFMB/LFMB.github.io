@@ -1,11 +1,10 @@
 
-
 function domReady () {
   document.body.className += " javascript";
+  getPageTaglines();
   spanSiteName();
   drumRoll();
 }
-
 
 
 function spanSiteName() {
@@ -23,6 +22,33 @@ function spanSiteName() {
 	);
 
 }
+
+function showSiteTagLines(tagLines){
+	var tagLinesQueue = tagLines.length,
+		tagLineClasses = '';
+	for(var a = 0; a < tagLinesQueue; a++){
+		tagLineClasses = tagLines[a].classList;
+	    tagLineClasses.remove('hidden');
+	    tagLineClasses.add('animated');
+	}
+};
+
+
+function getPageTaglines(){
+	var hiddenTagLines = [],
+		heroTagLines = [];
+
+	hiddenTagLines = document.getElementsByClassName('hidden');
+
+	heroTagLines = document.getElementsByClassName('hero-tagline');
+	
+	showSiteTagLines(heroTagLines);
+};
+
+
+
+
+
 
 /* TODO: fix up animation of "downeast markets" homepage */
 
@@ -61,20 +87,4 @@ if ( document.addEventListener ) {
 }
 
 
-/*
 
-need to work on the taglines animation
-
-var hiddenTagLines = [];
-
-hiddenTagLines = document.getElementsByClassName('hidden');
-
-function showSiteTagLine(tagLines){
-var tagLinesQueue = tagLines.length;
-for(var a = 0; a < tagLinesQueue; a++){
-setInterval( function(){
-     tagLines[a].removeClass('hidden').addClass('animated');
- }, 1000);
-}
-};  
-*/
