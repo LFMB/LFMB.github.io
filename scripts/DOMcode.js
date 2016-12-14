@@ -1,7 +1,7 @@
 
 function domReady () {
   document.body.className += " javascript";
-  getPageTaglines();
+  setTimeout(getPageTaglines, 4000);
   spanSiteName();
   drumRoll();
 }
@@ -26,12 +26,15 @@ function spanSiteName() {
 function showSiteTagLines(tagLines){
 	var tagLinesQueue = tagLines.length,
 		tagLineClasses = '';
-	for(var a = 0; a < tagLinesQueue; a++){
-		tagLineClasses = tagLines[a].classList;
-	    tagLineClasses.remove('hidden');
-	    tagLineClasses.add('animated');
-	}
-};
+
+		for(var a = 0; a < tagLinesQueue; a++){
+			tagLineClasses = tagLines[a].classList;
+	    	console.log(a);
+	    	tagLineClasses.remove('hidden');
+	    	tagLineClasses.add('animated');
+	   	}
+	};
+
 
 
 function getPageTaglines(){
