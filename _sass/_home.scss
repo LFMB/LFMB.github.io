@@ -1,6 +1,6 @@
 .home{
 	float: left;
-	width: 100%;
+	width: 100vw;
 	.hero-banner{
 		text-align: center;
 	    background: #009688;
@@ -11,15 +11,18 @@
     	float: left;		
 		.name{
 			position: relative;
-			top: 25%;
-			-webkit-transform: translateY(-25%); 
-      		-ms-transform: translateY(-25%);
-			transform: translateY(-25%);
+			top: 20%;
+			-webkit-transform: translateY(-20%); 
+      		-ms-transform: translateY(-20%);
+			transform: translateY(-20%);
 			font-family: Montserrat, Helvetica,Arial,sans-serif;
 		    text-transform: uppercase;
 		    font-weight: 700;
 		   //text-shadow: 2px -2px #000;
 		    font-size: 4rem;
+		    @media(max-width: 500px){
+		    	font-size: 24px;
+		    }
 		    .drum-roll{
 		    	display: inline-block;
 		    	-webkit-animation: flip 2s infinite;
@@ -31,15 +34,18 @@
 		.tagline-container{
 			position: relative;
 			width: 100%;
-			top: 50%;
+			top: 35%;
 			height: calc(4*24px); // maybe throw this in DOMcode.js
-			-webkit-transform: translateY(-50%); 
-      		-ms-transform: translateY(-50%);
-			transform: translateY(-50%);
+			-webkit-transform: translateY(-35%); 
+      		-ms-transform: translateY(-35%);
+			transform: translateY(-35%);
 			.hero-tagline{
 				font-family: Montserrat, Helvetica,Arial,sans-serif;
 				font-size: 16px;
 				margin-bottom: 0;
+				@media(max-width: 500px){
+		    		font-size: 14px;
+		    	}
 			}
 		}
 		.goal{
