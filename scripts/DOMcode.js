@@ -23,15 +23,25 @@ function spanSiteName() {
 
 }
 
+function animateMoreContentArrow(){
+	return document.getElementById('home-more-content').classList.add('animated-slow', 'infinite');
+}
+
 function showSiteTagLines(tagLines){
 	var tagLinesQueue = tagLines.length,
-		tagLineClasses = '';
+		 tagLineClasses = '';
 
-		for(var a = 0; a < tagLinesQueue; a++){
-			tagLineClasses = tagLines[a].classList;
-	    	console.log(a);
-	    	tagLineClasses.remove('hidden');
-	    	tagLineClasses.add('animated');
+		for(var activeTagLineIndex = 0; activeTagLineIndex < tagLinesQueue; activeTagLineIndex++){
+	   		setTimeout(function(selectedTagLineIndexNumber){
+	   			var topPosition = (selectedTagLineIndexNumber * 24) + "px";
+		   			tagLines[selectedTagLineIndexNumber].style.transform = 'translateY(' + topPosition + ')';
+		   			tagLineClasses = tagLines[selectedTagLineIndexNumber].classList;
+				    tagLineClasses.remove('hidden');
+				    tagLineClasses.add('animated');
+			    if( selectedTagLineIndexNumber === 3){
+			    	animateMoreContentArrow();
+			    }
+	   		}, activeTagLineIndex * 2000, activeTagLineIndex);
 	   	}
 	};
 

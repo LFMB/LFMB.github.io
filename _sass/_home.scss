@@ -28,14 +28,25 @@
 		    	animation: flip 2s infinite;
 		    }
 		}
-		.hero-tagline{
-			font-family: Montserrat, Helvetica,Arial,sans-serif;
-			font-size: 16px;
+		.tagline-container{
 			position: relative;
+			width: 100%;
 			top: 50%;
+			height: calc(4*24px); // maybe throw this in DOMcode.js
 			-webkit-transform: translateY(-50%); 
       		-ms-transform: translateY(-50%);
 			transform: translateY(-50%);
+			.hero-tagline{
+				font-family: Montserrat, Helvetica,Arial,sans-serif;
+				font-size: 16px;
+				margin-bottom: 0;
+			}
+		}
+		.goal{
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			font-family: Montserrat, Helvetica,Arial,sans-serif;
 		}
 		.arrow-down{
 			position: absolute;
