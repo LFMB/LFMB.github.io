@@ -1,8 +1,9 @@
 
-var containerWidth = document.querySelector('.usa-map-container').clientWidth,
-    height = 500,
-    width  = containerWidth;
+var containerWidth = document.querySelector('.usa-map-container').innerWidth,
+    width  = containerWidth,
+    height;
 
+    height = width / 2; 
 
 var projection = d3.geo.albersUsa()
     .translate([width / 2, height / 2])
@@ -27,8 +28,6 @@ var usaMap = d3.select("#usa-map")
 var tooltip = d3.select("#usa-map")
     .append("svg")
     .attr("class", "tooltip-svg")
-    .attr("width", 250)
-    .attr("height", 100)
     .style("opacity", 0);
 
 

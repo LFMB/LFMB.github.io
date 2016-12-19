@@ -1,6 +1,6 @@
 .home{
 	float: left;
-	width: 100vw;
+	width: 100%;
 	.hero-banner{
 		text-align: center;
 	    background: #009688;
@@ -40,7 +40,7 @@
       		-ms-transform: translateY(-35%);
 			transform: translateY(-35%);
 			.hero-tagline{
-				font-family: Montserrat, Helvetica,Arial,sans-serif;
+				font-family: 'Montserrat', Helvetica,Arial,sans-serif;
 				font-size: 16px;
 				margin-bottom: 0;
 				@media(max-width: 500px){
@@ -52,7 +52,7 @@
 			width: 100%;
 			position: absolute;
 			bottom: 0;
-			font-family: Montserrat, Helvetica,Arial,sans-serif;
+			font-family: 'Montserrat', Helvetica,Arial,sans-serif;
 		}
 		.arrow-down{
 			position: absolute;
@@ -64,6 +64,7 @@
 			}
 		}
 	}
+	/*
 	.state-of-union{
 		display: block;
 		float: left;
@@ -76,16 +77,33 @@
 			float: left;
 		}
 	}
+	*/
+	.state-of-union-blurb-container{
+	    padding: 40px 20px;
+	    background: #dedede;
+	    float: left;
+	    width: 100%;
+	    .state-of-union-map-title{
+
+	    }
+	    .state-of-union-blurb{
+
+	    }
+	}
 	.usa-map-container{
 		text-align: center;
-		padding: 40px 0 20px;
-		background: #dedede;
-		float: left;
+	    padding: 0 20px;
+	    background: #dedede;
+	    float: left;
+	    width: 100%;
 		#usa-map{
 			float: left;
 			width: 100%;
 			position: relative;
 			background: #dedede;
+			.state-of-union-map{
+				
+			}
 		}
 		a {
 			color: $primary-color;
@@ -95,14 +113,18 @@
         } 
 	}	
 }
-
-.quarter-selector-options {
-    .mdl-button {
-        color: $primary-color;
-        &:hover {
-            color: $primary-color-dark;
-        }   
-    }
+.quarter-selector-container{
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+	.quarter-selector-options {
+	    .mdl-button {
+	        color: $primary-color;
+	        &:hover {
+	            color: $primary-color-dark;
+	        }   
+	    }
+	}
 }
 
 
@@ -127,7 +149,10 @@ div.tooltip {
 	position: absolute;                                   
 	font: 12px sans-serif;        
 	background: white;           
-	pointer-events: none;  
+	pointer-events: none; 
+	width: 100px;
+	height: 200px;
+	overflow: hidden;
 }
 
         
