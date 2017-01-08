@@ -1,0 +1,42 @@
+--- 
+layout: d3-testing
+title: Test GDP
+order: 4
+permalink: /test-gdp/
+---
+
+<div class="home">
+    <section class="state-of-union-blurb-container">
+        <h2 class="state-of-union-map-title">State of the Union</h2>
+        <p class="state-of-union-blurb">This is the beginning to figuring out why some communities - in particular states -  have noticeable variances in general wealth and opportunity. The catalyst to this research is Governor LePage’s comment made first in 2010 and subsequently harped on for at least four years about <a target="_blank" href=”http://bangordailynews.com/2014/01/05/politics/lepage-continues-effort-to-lower-energy-costs-for-maine-ratepayers/”>electrical costs</a> being the key factor in holding Maine’s economy back.</p>
+        <p class="state-of-union-blurb">Before you can start looking for causes to a situation you first have to eliminate the possibility that the outcome can be explained by naturally occurring randomness, essentially if these results are naturally distributed (bell curve).  It seems that a logical starting point for this check is by comparing the rest of the United States state by state per capita to the population mean (National Per Capita GDP).  
+        </p>
+        <p class="state-of-union-blurb">The following is a heat map of the United States depicting economic value generated per capita relative to the national average for said quarter. The “greener” the state more “value” the residents of said state generated in that quarter and the reverse for red. </p>
+
+    </section>
+    <section class="usa-map-container">
+        <div id="usa-map">
+        </div>
+        <div class="quarter-selector-container">
+            <div class="quarter-selector-options">
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect"
+                       data-year="2015" data-quarter="0" id="2015-Q1">
+                        2015 Q1
+                 </button>
+                 <button class="mdl-button mdl-js-button mdl-js-ripple-effect"
+                        data-year="2015" data-quarter="1" id="2015-Q2">2015 Q2
+                 </button>
+                 <button class="mdl-button mdl-js-button mdl-js-ripple-effect"
+                        data-year="2015" data-quarter="2" id="2015-Q4">2015 Q3
+                 </button>
+                 <button class="mdl-button mdl-js-button mdl-js-ripple-effect"
+                        data-year="2015" data-quarter="3" id="2015-Q4">2015 Q4
+                 </button>
+            </div> 
+        </div>
+    </section>
+    <section id="state-of-union-distribution">
+        
+    <section>
+</div>
+<script type="text/javascript" src="../../scripts/test-gdp-breakdown.js"></script>

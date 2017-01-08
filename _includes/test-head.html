@@ -1,0 +1,23 @@
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+    <link rel="shortcut icon" href="../../favicon.png"/>
+<link rel="stylesheet" href="../../css/animate.css">
+ <link rel="stylesheet" href="../../lib/bootstrap.css">
+ <link rel="stylesheet" href="../../lib/font-awesome.css">
+  <link rel="stylesheet" href="../../lib/material.css">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+ <script src="../../lib/jquery.js"></script>
+<script src="../../lib/d3.js"></script>
+<script src="../../lib/material.js"></script>
+</head>
