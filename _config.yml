@@ -23,4 +23,4 @@ permalink: "/:title"
 
 collections:
  projects:
- output: false
+ output: true
